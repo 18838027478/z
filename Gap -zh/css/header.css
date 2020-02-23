@@ -1,0 +1,201 @@
+.headMain{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 9999;
+}
+.headMain .head-top{
+    height: 30px;
+    width: 100%;
+    background-color: #0D2347;
+    font-size: 12px;
+    color: #fff;
+    line-height: 30px;
+}
+.headMain .head-top .lf span{
+    /* margin: 0 5px; */
+    width: 55px;
+    padding: 8px 14px;
+}
+.headMain .head-top .lf span:nth-child(1){
+    background-color: #fff;
+    font-size: 16px;
+}
+.headMain .head-top .rf span{
+    margin: 0 5px;
+    font-size: 14px;
+}
+.head-body{
+    height: 114px;
+    padding: 14px 0 20px;
+    clear: both;
+}
+.head-body .headerb-img{
+    /* position: absolute; */
+    width: 1200px;
+    height: 76px;
+    text-align: center;
+}
+.head-body .headerb-img img{
+    /* position: absolute; */
+    /* left: 50%; */
+    /* margin-left: -76px; */
+    width: 152px;
+    height: 100%;
+}
+.head-body .rf{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.bag-span, .login-span{
+    display: inline-block;
+}
+.login-span{
+    position: relative;
+}
+.head-body .rf .headerb-top span:nth-child(1){
+    margin-right: 24px;
+}
+.head-body .rf .headerb-top .login-span:hover .personCenter{
+    display: block;
+}
+.head-body .rf .headerb-top .login-span .personCenter{
+    display: none;
+    position: absolute;
+    top: 32px;
+    z-index: 999;
+    width: 104px;
+    padding: 12px 0;
+    list-style-type: none;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.head-body .rf .headerb-top .login-span .personCenter li{
+    padding: 0 12px;
+    line-height: 32px;
+    cursor: pointer;
+}
+.head-body .rf .headerb-top .login-span .personCenter i{
+    position: absolute;
+    font-size: 14px;
+    color: #ccc;
+    top: -12px;
+    left: 50%;
+    margin-left: -7px;
+}
+.head-body .rf .headerb-top .login-span .personCenter li:hover{
+    color: #0D2347;
+    background-color: #f5f5f5;
+}
+.head-body .rf .headerb-top i{
+    font-size: 25px;
+}
+.head-body .rf .headerb-bottom{
+    width: 210px;
+    height: 32px;
+    margin-top: 24px;
+    position: relative;
+}
+.head-body .rf .headerb-bottom input{
+    color: #ccc;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #000;
+}
+.head-body .rf .headerb-bottom i{
+    color: #000;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+}
+.headMain .head-nav{
+    
+}
+.headMain .head-nav .headNav-ul{
+    /* overflow: hidden; */
+    display: flex;
+    padding-bottom: 15px;
+    min-width: 1200px;
+}
+.headMain .head-nav .headNav-ul .headNav-li{
+    flex: 9;
+    list-style: none;
+    float: left;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+}
+.headMain .head-nav .headNav-ul .headNav-li span{
+    cursor: pointer;
+}
+.headMain .head-nav .headNav-ul .headNav-li:hover .conparent{
+    display: block!important;
+}
+.headMain .head-nav .headNav-ul .headNav-li:hover{
+    color: #9999;
+}
+.headMain .head-nav .headNav-ul .headNav-li .conparent{
+    position: absolute;
+    display: none;
+    left: -168px;
+    background-color: #fff;
+    top: 30px;
+    z-index: 9999;
+    text-align: center;
+    border-top: 1px solid #666;
+    /* transition: all 1s; */
+}
+.repeat{
+    left: -336px!important;
+}
+.headMain .head-nav .headNav-ul .headNav-li .headN-con{
+    display: inline-block;
+    padding: 24px 0 0 20px;
+    margin-left: -220px;
+}
+.headMain .head-nav .headNav-ul .headNav-li .headN-con li{
+    list-style: none;
+    width: 100px;
+    float: left;
+    text-align: left;
+}
+.headMain .head-nav .headNav-ul .headNav-li .headN-con li span{
+    display: block;
+    line-height: 28px;
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+}
+.headMain .head-nav .headNav-ul .headNav-li .headN-con li span:nth-child(1){
+    font-weight: bold;
+}
+.headMain .head-nav .headNav-ul .headNav-li .headN-con li img{
+    z-index: 999;
+}
+.headMain .head-nav .headNav-ul .headNav-li .conparent dl{
+    display: inline-block;
+    /* line-height: 28px; */
+    padding: 7px 0;
+    vertical-align: top;
+    height: 173px;
+    width: 108px;
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+    text-align: left;
+    margin-right: 10px;
+}
+.headMain .head-nav .headNav-ul .headNav-li .conparent dl dd{
+    display: inline-block;
+    margin-bottom: 14px;
+
+}

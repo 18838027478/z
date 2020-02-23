@@ -1,0 +1,171 @@
+ 
+.payment-warper .payment-top{
+    padding: 16px 0;
+    height: 43px;
+    line-height: 43px;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+}
+.payment-warper .payment-top .back{
+    display: inline-block;
+}
+.payment-warper .payment-top a{
+
+}
+.payment-warper .payment-top a img{
+
+}
+.payment-warper .payment-top .rf span{
+    margin-left: 30px;
+}
+.payment-warper .payment-top .rf span i{
+    font-size: 22px;
+    margin-right: 3px;
+}
+.payment-warper .payment-main{
+
+}
+.payment-warper .payment-main .paymentM-tit{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 64px;
+}
+.payment-warper .payment-main .paymentM-tit h3{
+    font-size: 18px ;
+    color: #122147;
+    text-align: center;
+}
+.payment-warper .payment-main .paymentM-tit p{
+    padding: 12px 0;
+    text-align: center;
+}
+.payment-warper .payment-main .paymentM-ercode{
+    padding: 0 0 72px;
+    text-align: center;
+}
+.payment-warper .payment-main .paymentM-ercode img{
+    word-wrap: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.payment-warper .payment-main .paymentM-ercode p:nth-child(2){
+    width: 200px;
+    display: inline-block;
+    padding-top: 12px;
+    font-size: 14px;
+    color: #333;
+}
+.payment-warper .payment-main .paymentM-ercode .ercode-info{
+    display: inline-block;
+    width: 252px;
+    font-size: 14px;
+    color: #333;
+    padding: 0 0 26px 42px;
+    vertical-align: bottom;
+    text-align: left;
+}
+.payment-warper .payment-main .paymentM-ercode .ercode-info p:nth-child(1){
+    padding: 24px 0 14px;
+}
+.payment-warper .payment-main .paymentM-order{
+    width: 948px;
+    padding: 16px;
+    font-size: 14px;
+    color: #333;
+    background-color: #f5f5f5;
+    margin-bottom: 24px;
+}
+.payment-warper .payment-main .paymentM-order p{
+    margin-bottom: 5px;
+}
+.payment-warper .payment-main .paymentM-order span{
+    margin-left: 5px;
+}
+.payment-warper .payment-main .produ{
+    width: 948px;
+    padding: 16px;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 24px;
+}
+
+
+.payment-warper .payment-main .produ ul li{
+    padding: 20px 24px;
+    list-style: none;
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+}
+.payment-warper .payment-main .produ ul li img{
+    width: 130px;
+    height: 173px;
+    margin: 0 16px;
+}
+.payment-warper .payment-main .produ ul li .info, .info2 , .info3{
+    display: inline-block;
+    vertical-align: top;
+}
+.payment-warper .payment-main .produ ul li .info1{
+    display: inline-block;
+    width: 270px;
+    vertical-align: top;
+}
+.payment-warper .payment-main .produ ul li .info1 p{
+    margin-bottom: 24px;
+}
+.payment-warper .payment-main .produ ul li .info1 span{
+    padding-bottom: 6px;
+    margin-right: 40px;
+}
+.payment-warper .payment-main .produ ul li .info1 span i{
+    margin-right: 5px;
+}
+.payment-warper .payment-main .produ ul li .info1 .info1-p span{
+    color: #999;
+    display: block;
+}
+.payment-warper .payment-main .produ ul li .info1 .info1-p span i{
+    font-style: normal;
+    color: #333;
+}
+.payment-warper .payment-main .produ ul li .info2 p   span s{
+    color: #999;
+    font-size: 12px;
+    margin-left: 8px;
+}
+.payment-warper .payment-main .produ ul li .info2{
+    width: 104px;
+}
+.payment-warper .payment-main .produ ul li .info3{
+    padding-left: 70px;
+}
+.payment-warper .payment-main .produ ul li .info3 p{
+    text-align: right;
+    width: 143px;
+}
+.payment-warper .payment-main .payment-tota{
+    text-align: right;
+    font-size: 14px;
+    color: #333;
+    padding-right: 18px;
+}
+.payment-warper .payment-main .payment-tota ul{
+    display: inline-block;
+    width: 302px;
+    list-style-type: none;
+}
+.payment-warper .payment-main .payment-tota ul li{
+    text-align: left;
+    padding-bottom: 16px;
+}
+.payment-warper .payment-main .payment-tota ul li:nth-child(2){
+    color: #be200a;
+}
+.payment-warper .payment-main .payment-tota ul li:nth-child(3){
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 16px;
+}
+.payment-warper .payment-main .payment-tota ul li:last-child span:nth-child(2){
+    font-size: 18px;
+}

@@ -1,0 +1,946 @@
+.person{
+    background-color: #f5f5f5;
+    padding: 32px 0 80px;
+    font-size: 14px;
+    color: #666;
+    overflow: hidden;
+}
+.person .w1200{
+    overflow: hidden;
+    width: 1160px;
+    padding: 0 20px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.person .person-left{
+    float: left;
+    width: 231px;
+    border-radius: 3px;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+.person .person-left span{
+    display: block;
+    padding-left: 44px;
+    line-height: 32px;
+    cursor: pointer;
+}
+.person .person-left span:hover{
+    color: #333;
+    background-color: #f5f5f5;
+}
+.personL-SP-on{
+    border-left: 4px solid #042f6a;
+    background-color: #f5f5f5;
+    color: #000;
+    font-weight: bold;
+}
+.person .person-left p{
+    padding: 16px 0 8px 11px;
+    margin: 0 0 10px;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+}
+.person .person-left p i{
+    font-size: 20px;
+}
+.person .person-left .member{
+
+}
+.person .person-left .member span{
+}
+.person .person-right{
+    float: right;
+    margin-bottom: 30px;
+}
+.person .person-right h1{
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 16px;
+}
+.person .person-right .person-top{
+    width: 856px;
+    padding: 24px 25px 16px;
+    border-radius: 3px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.person .person-right .person-top .personT-left{
+    width: 363px;
+}
+.person .person-right .person-top .personT-left .left2{
+    margin: 50px 0 35px;
+}
+.person .person-right .person-top .personT-left .left3 .mission{
+    position: relative;
+    margin-bottom: 18px;
+}
+.person .person-right .person-top .personT-left .left3 .mission p{
+    width: 343px;
+    height: 3px;
+    background-color: #e8e8e8;
+    margin: 10px 6px 11px 12px;
+}
+.person .person-right .person-top .personT-left .left3 .mission .point{
+    background-color: #042f6a;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 50%;
+    position: absolute;
+    top: -12px;
+    left: 0;
+}
+.person .person-right .person-top .personT-left .left3 .mission .point i{
+    color: #fff;
+}
+.person .person-right .person-top .personT-left .left3 .mission .littlePoint{
+    background-color: #e8e8e8;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
+.person .person-right .person-top .personT-left strong{
+    font-size: 14px;
+    color: #333;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.person .person-right .person-top .personT-left span{
+    color: #9999;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.person .person-right .person-top .personT-right{
+    width: 339px;
+    height: 212px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1s;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.person .person-right .person-top .personT-right .img-tab{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+    color: #042f6a;
+}
+.person .person-right .person-top .personT-right .img-tab p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.person .person-right .person-top .personT-right .img-tab p:nth-child(3){
+    color: #333;
+}
+.person .person-right .person-top .personT-right img{
+    width: 339px;
+    height: 212px;
+}
+.person .person-right .person-top .personT-right .right1, .right2{
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img-rotate{
+    transform: rotateY(180deg);
+}
+.person .person-right .person-top .personT-right .right1{
+    transform: rotateY(0deg);
+}
+.person .person-right .person-top .personT-right .right2{
+    transform: rotateY(180deg);
+    width: 339px;
+    height: 212px;
+    text-align: center;
+    z-index: 9999;
+}
+.person .person-right .person-top .personT-right .right2 p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.person .person-right .person-top .personT-right .right2 span{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.person .person-right .person-mess{
+    margin: 10px 0;
+    width: 858px;
+    padding: 24px;
+    border-radius: 3px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.person .person-right .person-mess li{
+    float: left;
+    height: 52px;
+    width: 214px;
+    list-style-type: none;
+}
+.person .person-right .person-mess li .person-m1{
+    display: inline-block;
+    vertical-align: middle;
+}
+.person .person-right .person-mess li p{
+    /* display: inline-block;
+    width: 160px; */
+}
+.person .person-right .person-mess  span{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    margin-right: 16px;
+    border-radius: 50%;
+    background-color: yellow;
+
+}
+.person .person-right .person-mess  .blue{
+    background-color: skyblue!important;
+}
+.person .person-right .person-mess  .pink{
+    background-color: pink!important;
+}
+.person .person-right .person-mess  span i{
+    font-size: 26px;
+}
+
+.tabM-on{
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.person .person-right .span2-tab .account{
+    width: 856px;
+    font-size: 14px ;
+    color: #333;
+    padding: 24px 25px 16px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.person .person-right .span2-tab .account h3{
+    font-size: 16px;
+}
+.person .person-right .span2-tab .account span{
+    color: #999;
+}
+.person .person-right .span2-tab .account p:nth-child(2){
+    margin: 24px 0 13px;
+}
+.person .person-right .span2-tab .account p i{
+    font-size: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.person .person-right .span2-tab .perfe{
+    width: 856px;
+    font-size: 14px ;
+    color: #333;
+    padding: 24px 25px 16px;
+    border-radius: 3px;
+    margin-top: 20px;
+    background-color: #fff;
+} 
+.person .person-right .span2-tab .perfe h3{
+    color: #333;
+    font-size: 16px;
+}
+.person .person-right .span2-tab .perfe h3 span{
+    margin-left: 16px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+}
+.person .person-right .span2-tab .perfe p{
+    margin: 21px 0 9px;
+}
+.person .person-right .span2-tab .perfe p span{
+    color: #999;
+    margin-left: 5px;
+}
+.person .person-right .span2-tab .perfe .input{
+    width: 392px;
+    height: 36px;
+    padding: 0 12px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.person .person-right .span2-tab .perfe .radio{
+    width: 16px;
+    height: 16px;
+    vertical-align: bottom;
+}
+.person .person-right .span2-tab .perfe em{
+    font-style: normal;
+    padding-left: 10px;
+    margin-right: 50px;
+}
+.person .person-right .span2-tab .perfe select{
+    width: 120px;
+    height: 36px;
+    padding: 0 12px;
+    margin-right: 10px;
+}
+.person .person-right .span2-tab .perfe .addBody span{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.person .person-right .span2-tab .perfe .btn{
+    margin-top: 35px;
+    width: 124px;
+    height: 36px;
+    line-height: 36px;
+    color: #122147;
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+.person .person-right .span2-tab .perfe .rej{
+    background-color: #122147;
+    border: 1px solid #122147;
+    color: #fff;
+    margin-left: 24px;
+}
+.person .person-right .person-myOrder{
+    margin: 10px 0;
+    width: 906px;
+    border-radius: 3px;
+    background-color: #fff;
+    /* overflow: hidden; */
+}
+.person .person-right .person-myOrder .tab-myOrder{
+    font-size: 14px;
+    color: #333;
+    background-color: #f9f9f9;
+    display: flex;
+}
+.person .person-right .person-myOrder .tab-myOrder span{
+    padding: 14px 16px;
+    display: inline-block;
+    flex: 2;
+}
+.person .person-right .person-myOrder .tab1{
+    padding: 24px;
+}
+.person .person-right .person-myOrder .tab1 .look{
+    margin-top: 23px;
+    padding-bottom: 24px;
+    font-size: 14px;
+    color: #333;
+    text-align: right;
+}
+.person .person-right .person-myOrder .tab2{
+    padding: 24px;
+    
+}
+.person .person-right .person-myOrder .tab1 ul li{
+    list-style-type: none;
+    height: 160px;
+    margin-top: 16px;
+    font-size: 14px;
+    color: #333;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+}
+.person .person-right .person-myOrder .tab1 ul li .tab1-left{
+
+}
+.person .person-right .person-myOrder .tab1 ul li .tab1-left img{
+    width: 80px;
+    height: 107px;
+    vertical-align: top;
+}
+.person .person-right .person-myOrder .tab1 ul li  .head-tab1{
+    margin-bottom: 20px;
+}
+.person .person-right .person-myOrder .tab1 ul li .tab1-left p{
+    
+}
+.person .person-right .person-myOrder .tab1 ul li .tab1-left .tab1-l-info{
+    display: inline-block;
+    width: 160px;
+    margin-left: 8px;
+}
+.person .person-right .person-myOrder .tab1 ul li .tab1-left .tab1-l-info p:nth-child(2){
+    margin: 8px 0 16px;
+}
+.person .person-right .person-myOrder .tab1 ul li .tab1-left .tab1-l-info span{
+    display: inline-block;
+    margin-bottom: 27px;
+    color: #999;
+}
+.person .person-right .person-myOrder .tab1 ul li .tab1-left .tab1-l-info s{
+    margin-left: 8px;
+    color: #999;
+}
+.person .person-right .person-myOrder .tab1 ul li .tab1-right{
+    text-align: right;
+}
+.person .person-right .person-myOrder .tab1 ul li .tab1-right strong{
+    display: block;
+}
+.person .person-right .person-myOrder .tab1 ul li .tab1-right .xiangqing{
+    margin-top: 87px;
+}
+.person .person-right .span-tab .dizhi{
+    width: 906px;
+    height: 310px;
+    font-size: 14px ;
+    color: #333;
+    padding: 0 0 16px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.person .person-right .span-tab .dizhi table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.person .person-right .span-tab .dizhi th{
+    padding: 15px 0;
+    font-weight: normal;
+    text-align: left;
+}
+.person .person-right .span-tab .dizhi input{
+    width: 16px;
+    height: 16px;
+    margin:  0 10px 0 16px;
+    vertical-align: middle;
+}
+.person .person-right .span-tab .dizhi i{
+    font-size: 22px;
+    vertical-align: sub;
+    margin-right: 5px;
+}
+.person .person-right .span-tab .dizhi i:nth-child(2){
+    margin-left: 25px;
+    font-size: 18px;
+    vertical-align: text-bottom;
+}
+.person .person-right .span-tab .dizhi tr:nth-child(2){
+    background-color: #f5f5f5;
+}
+.person .person-right .span-tab .dizhi td{
+    padding: 9px 0;
+    text-align: left;
+}
+.person .person-right .span-tab .dizhi td:nth-child(1){
+    color: #606266;
+}
+.person .person-right .span-tab .dizhi .btnpar{
+    width: 100%;
+    text-align: center;
+}
+.person .person-right .span-tab .dizhi .btn{
+    width: 220px;
+    height: 32px;
+    line-height: 32px;
+    color: #122147;
+    margin: 24px auto 0;
+}
+.person .person-right .span4-tab h1 span{
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+}
+.person .person-right .span4-tab .jifen{
+    width: 856px;
+    height: 310px;
+    font-size: 14px ;
+    color: #333;
+    padding: 24px 25px 16px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.person .person-right .span4-tab .jifen .jifen-tit .jifen-tit-p{
+    font-size: 18px;
+    color: #333;
+    padding: 20px 16px 12px;
+}
+.person .person-right .span4-tab .jifen .jifen-tit .jifen-tit-p span:nth-child(2){
+    font-size: 14px;
+    color: #999;
+    margin-left: 16px;
+}
+.person .person-right .span4-tab .jifen .jifen-tit .jifen-tit-p .btn{
+    width: 124px;
+    height: 27px;
+    font-size: 14px;
+    line-height: 27px;
+    color: #042f6a;
+    border: 1px solid #042f6a;
+    border-radius: 20px;
+}
+.person .person-right .span4-tab .jifen .jifen-tit p{
+    font-size: 12px;
+    color: #999;
+    padding-right: 16px;
+    text-align: right;
+}
+.person .person-right .span4-tab .jifen .jifen-tab{
+    margin-top: 18px;
+    padding: 0 16px;
+    border-bottom: 1px solid #ccc;
+}
+.person .person-right .span4-tab .jifen .jifen-tab span{
+    font-size: 14px;
+    color: #999;
+    margin-right: 56px;
+    display: inline-block;
+    padding: 8px 0;
+}
+.jifen-active{
+    border-bottom: 2px solid #042f6a;
+    color: #042f6a;
+}
+.person .person-right .span4-tab .jifen .jifen-tab-tab1 p{
+    font-size: 14px;
+    color: #333;
+    padding: 16px;
+}
+.person .person-right .span5-tab .youhui{
+    width: 906px;
+    height: 409px;
+    font-size: 14px ;
+    color: #333;
+    padding: 0 0 16px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.person .person-right .span5-tab .youhui .youhui-tab{
+    display: flex;
+    height: 44px;
+}
+.person .person-right .span5-tab .youhui .youhui-tab span{
+    font-size: 14px;
+    color: #333;
+    padding-left: 16px;
+    flex: 50%;
+    line-height: 44px;
+    border-radius: 3px 3px 0 0;
+    background-color: #14412707;
+}
+.person .person-right .span5-tab .youhui .youhui-tab span i{
+    font-style: normal;
+}
+.span-active{
+    background-color: #fff!important;
+}
+.person .person-right .span5-tab .youhui .youhui-tab1-tab{
+    border-bottom: 1px solid #ccc;
+    padding: 16px 16px 6px;
+    font-size: 14px;
+    color: #999;
+}
+.person .person-right .span5-tab .youhui .youhui-tab1-tab span{
+    padding-bottom: 5px;
+}
+.person .person-right .span5-tab .youhui .youhui-tab1-tab span:nth-child(1){
+    margin-right: 50px;
+}
+.span-active1{
+    color: #042f6a;
+    border-bottom:2px solid #042f6a;
+}
+.person .person-right .span5-tab .youhui .youhui-tab1 .tab-tab1{
+    padding: 20px 0 20px 16px;
+}
+.person .person-right .span5-tab .youhui .youhui-tab1 .tab-tab1 .tax .tax-top{
+    width: 293px;
+    height: 106px;
+    padding: 12px;
+    color: #fff;
+    background-color: #fd737a;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+}
+.person .person-right .span5-tab .youhui .youhui-tab1 .tab-tab1 .tax .tax-top span{
+    font-size: 36px;
+
+}
+.person .person-right .span5-tab .youhui .youhui-tab1 .tab-tab1 .tax .tax-top span:nth-child(1){
+    font-size: 18px;
+}
+.person .person-right .span5-tab .youhui .youhui-tab1 .tab-tab1 .tax .tax-top p{
+    margin-bottom: 10px;
+}
+.person .person-right .span5-tab .youhui .youhui-tab1 .tab-tab1 .tax .tax-top p:nth-child(4){
+    font-size: 12px;
+}
+.person  .span5-tab  .youhui-tab1 .tab-tab1 .tax .tax-top .btn{
+    width: 52px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    color: #fd737a;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+.person .person-right .span5-tab .youhui .youhui-tab1 .tab-tab1 .tax .tax-bottom{
+    width: 293px;
+    height: 122px;
+    padding: 12px;
+    background-color: #f9f9f9;
+    border-top: 1px dashed #fd737a;
+    border-radius: 0 0 5px 5px;
+}
+.span5-tab .youhui .youhui-tab1 .tab-tab1 .tax-bottom p{
+    margin-bottom: 10px;
+    font-size: 12px ;
+    color: #333;
+}
+.span5-tab .youhui .youhui-tab1 .tab-tab1 .tax-bottom span{
+    color: #999;
+}
+.span5-tab .youhui .youhui-tab1 .tab-tab1 .tax-bottom .btn{
+    width: 86px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #999;
+    /* margin: 0 auto; */
+    margin-top: 10px;
+    margin-left: 97px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+.span5-tab .youhui .youhui-tab1 .tab-tab2 p, .youhui-tab2 p{
+    padding: 16px;
+}
+.person .person-right .span6-tab .dingdan{
+    width: 906px;
+    /* height: 337px; */
+    font-size: 14px ;
+    color: #333;
+    padding: 0 0 16px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.person .person-right .span6-tab .dingdan .dingdan-tab{
+    display: flex;
+    height: 44px;
+}
+.person .person-right .span6-tab .dingdan .dingdan-tab span{
+    font-size: 14px;
+    color: #333;
+    padding-left: 16px;
+    flex: 50%;
+    line-height: 44px;
+    border-radius: 3px 3px 0 0;
+    background-color: #14412707;
+}
+.person .person-right .span6-tab .dingdan .dingdan-tab-main p{
+    padding: 16px;
+    margin-bottom: 10px;
+}
+.person .person-right .span6-tab .dingdan .dingdan-tab-main1 p{
+    padding: 0px;
+}
+.person .person-right .span7-tab .youhui{
+    width: 906px;
+    height: 337px;
+    font-size: 14px ;
+    color: #333;
+    padding: 0 0 16px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.person .person-right .span7-tab .youhui .youhui-tab{
+    display: flex;
+    height: 44px;
+}
+.person .person-right .span7-tab .youhui .youhui-tab span{
+    font-size: 14px;
+    color: #333;
+    padding-left: 16px;
+    flex: 50%;
+    line-height: 44px;
+    border-radius: 3px 3px 0 0;
+    background-color: #14412707;
+}
+.span-active{
+    background-color: #fff!important;
+}
+.person .person-right .span7-tab .youhui .youhui-tab1-tab{
+    border-bottom: 1px solid #ccc;
+    padding: 16px 16px 6px;
+    font-size: 14px;
+    color: #999;
+}
+.person .person-right .span7-tab .youhui .youhui-tab1-tab span{
+    padding-bottom: 5px;
+}
+.person .person-right .span7-tab .youhui .youhui-tab1-tab span:nth-child(1){
+    margin-right: 50px;
+}
+.span-active1{
+    color: #042f6a;
+    border-bottom:2px solid #042f6a;
+}
+.person .person-right .span7-tab .youhui .youhui-tab1 .tab-tab1{
+    padding: 20px 0 20px 16px;
+}
+.span7-tab .youhui .youhui-tab1 .tab-tab2 p, .youhui-tab2 p{
+    padding: 16px;
+}
+.span6-tab .dingdan .dingdan-tab-main{
+    height: 290px;
+}
+.span6-tab .dingdan .dingdan-tab-main1{
+    height: 636px!important;
+
+}
+.span6-tab .dingdan .dingdan-tab-main ul{
+    padding: 24px;
+}
+.span6-tab .dingdan .dingdan-tab-main ul li{
+    list-style-type: none;
+    height: 160px;
+    margin-top: 16px;
+    font-size: 14px;
+    color: #333;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+}
+.span6-tab .dingdan .dingdan-tab-main ul li .tab1-left{
+
+}
+.span6-tab .dingdan .dingdan-tab-main ul li .tab1-left img{
+    width: 80px;
+    height: 107px;
+    vertical-align: top;
+}
+.span6-tab .dingdan .dingdan-tab-main ul li  .head-tab1{
+    margin-bottom: 20px;
+}
+.span6-tab .dingdan .dingdan-tab-main ul li .tab1-left .tab1-l-info{
+    display: inline-block;
+    width: 160px;
+    margin-left: 8px;
+}
+.span6-tab .dingdan .dingdan-tab-main ul li .tab1-left .tab1-l-info p:nth-child(2){
+    margin: 8px 0 16px;
+}
+.span6-tab .dingdan .dingdan-tab-main ul li .tab1-left .tab1-l-info span{
+    display: inline-block;
+    margin-bottom: 27px;
+    color: #999;
+}
+.span6-tab .dingdan .dingdan-tab-main ul li .tab1-left .tab1-l-info s{
+    margin-left: 8px;
+    color: #999;
+}
+.span6-tab .dingdan .dingdan-tab-main ul li .tab1-right{
+    text-align: right;
+}
+.span6-tab .dingdan .dingdan-tab-main ul li .tab1-right strong{
+    display: block;
+}
+.span6-tab .dingdan .dingdan-tab-main ul li .tab1-right .xiangqing{
+    margin-top: 87px;
+}
+/* 遮罩层 */
+.cover{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(25,25,25,.5);
+    z-index: 9999;
+}
+.cover .cover-banner{
+    margin: 20px auto 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 375px;
+    padding: 32px;
+    font-size: 14px;
+    color: #333;
+}
+.cover .cover-banner .banner-top{
+    position: relative;
+}
+.cover .cover-banner .banner-top span{
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+}
+.cover .cover-banner .banner-top h1{
+    color: #2e2e2e;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+.cover .cover-banner p{
+    margin-bottom: 10px;
+}
+.cover .cover-banner input{
+    width: 311px;
+    height: 36px;
+    padding: 0 12px;
+    outline: none;
+    border: 1px solid #ccc;
+    margin-bottom: 18px;
+}
+.cover .cover-banner .btn{
+    width: 335px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #122147;
+    color: #fff;
+    border-radius: 3px;
+}
+/* 新增地址的遮罩层 */
+.warn{
+    font-size: 12px;
+    color: #ed4040;
+}
+.cover-xinzeng{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgba(25,25,25,.5);
+}
+.cover-xinzeng .banner{
+    margin: 50px auto;
+    padding: 32px;
+    width: 580px;
+    /* height: 536px; */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.cover-xinzeng .banner .banner-top{
+    position: relative;
+}
+.cover-xinzeng .banner .banner-top p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+.cover-xinzeng .banner .banner-top .bannerT-close{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 20px;
+    position: absolute;
+    right: 0px;
+    top: -6px;
+}
+.cover-xinzeng .banner .section{
+    margin-bottom: 24px;
+}
+.cover-xinzeng .banner .section p{
+    margin-right: 16px;
+    margin-bottom: 12px;
+    width: 265px;
+    display: inline-block;
+}
+.cover-xinzeng .banner .section input{
+    width: 241px;
+    height: 36px;
+    padding: 0 12px;
+    outline: none;
+    color: #ccc;
+}
+.cover-xinzeng .banner .section .section-per, .section-phon{
+    width: 278px;
+    height: 90px;
+    vertical-align: bottom;
+    display: inline-block;
+}
+.cover-xinzeng .banner .section1 p{
+    width: 174px;
+    margin: 0 16px 12px 0;
+}
+.cover-xinzeng .banner .section1 select{
+    width: 174px;
+    height: 36px;
+    padding: 0 12px;
+    outline: none;
+    border: 1px solid #ccc;
+    color: #ccc;
+    margin-right: 16px;
+}
+.cover-xinzeng .banner .section2 p{
+    width: 572px;
+    margin-bottom: 12px;
+}
+.cover-xinzeng .banner .section2 textarea{
+    width: 539px;
+    height: 78px;
+    padding: 6px 12px;
+    display: block;
+}
+.cover-xinzeng .banner .section2 span{
+    font-size: 12px;
+    /* display: block; */
+}
+.cover-xinzeng .banner .section3 .set-default{
+    margin: 25px 0;
+}
+.cover-xinzeng .banner .section3 .set-default input{
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+}
+.cover-xinzeng .banner .section3 .set-default span{
+    font-size: 14px;
+    color: #606266;
+    margin-left: 5px;
+}
+.cover-xinzeng .banner .section3 .btn{
+    width: 268px;
+    height: 36px;
+    font-size: 14px;
+    color: #122147;
+    line-height: 36px;
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+.cover-xinzeng .banner .section3 .btn:nth-child(3){
+    margin-left: 16px;
+    color: #ffff;
+    background-color: #122147;
+}
+
+
+

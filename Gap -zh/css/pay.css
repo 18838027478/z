@@ -1,0 +1,418 @@
+.pay-warper .w1200{
+    overflow: hidden;
+}
+.pay-warper .tally-top{
+    padding: 16px 0;
+    height: 43px;
+    line-height: 43px;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+}
+.pay-warper .tally-top .back{
+    display: inline-block;
+}
+.pay-warper .tally-top .rf span{
+    margin-left: 30px;
+}
+.pay-warper .tally-top .rf span i{
+    font-size: 22px;
+    margin-right: 3px;
+}
+.pay-warper .tally-main{
+    /* background-color: gold; */
+}
+.pay-warper .tally-main .w1200{
+    padding: 30px 20px 0;
+    font-size: 14px;
+}
+.pay-warper .tally-main .tallyM-left{
+    width: 842px;
+}
+.pay-warper .tally-main .tallyM-left .tallyM-L-tit{
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    padding-left: 12px;
+    background-color: #f5f5f5;
+}
+.pay-warper .tally-main .tallyM-left .tallyM-L-body{
+    padding: 24px 12px 0;
+}
+.pay-warper .tally-main .tallyM-left .tallyM-L-body .section{
+    margin-bottom: 24px;
+}
+.pay-warper .tally-main .tallyM-left .tallyM-L-body .section p{
+    margin-right: 16px;
+    margin-bottom: 12px;
+    width: 265px;
+    display: inline-block;
+}
+.pay-warper .tally-main .tallyM-left .tallyM-L-body .section3{
+    color: #333;
+}
+.pay-warper .tally-main .tallyM-left .tallyM-L-body .section3 p{
+    display: block;
+}
+.pay-warper .tally-main .tallyM-left .tallyM-L-body .section3 span:nth-child(3){
+    margin-left: 56px;
+}
+.pay-warper .tally-main .tallyM-left .main2 ul{
+    height: 220px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.pay-warper .tally-main .tallyM-left .main2 ul li{
+    padding: 20px 24px;
+    list-style: none;
+    /* background-color: green; */
+    font-size: 14px;
+    color: #333;
+}
+.pay-warper .tally-main .tallyM-left .main2 ul li img{
+    width: 130px;
+    height: 173px;
+    margin: 0 16px;
+}
+.pay-warper .tally-main .tallyM-left .main2 ul li .info, .info2 , .info3{
+    display: inline-block;
+    vertical-align: top;
+}
+.pay-warper .tally-main .tallyM-left .main2 ul li .info1{
+    display: inline-block;
+    width: 270px;
+    vertical-align: top;
+}
+.pay-warper .tally-main .tallyM-left .main2 ul li .info1 p{
+    margin-bottom: 24px;
+}
+.pay-warper .tally-main .tallyM-left .main2 ul li .info1 span{
+    padding-bottom: 6px;
+    margin-right: 40px;
+}
+.pay-warper .tally-main .tallyM-left .main2 ul li .info1 span i{
+    margin-right: 5px;
+}
+.pay-warper .tally-main .tallyM-left .main2 ul li .info1 .info1-p span{
+    color: #999;
+    display: block;
+}
+.pay-warper .tally-main .tallyM-left .main2 ul li .info1 .info1-p span i{
+    font-style: normal;
+    color: #333;
+}
+.pay-warper .tally-main .tallyM-left .main2 ul li .info2 p   span s{
+    color: #999;
+    font-size: 12px;
+    margin-left: 8px;
+}
+.pay-warper .tally-main .tallyM-left .main2 ul li .info2{
+    width: 104px;
+}
+.pay-warper .tally-main .tallyM-left .main2 ul li .info3{
+    padding-left: 70px;
+}
+.pay-warper .tally-main .tallyM-left .main2 ul li .info3 p{
+    text-align: right;
+    width: 143px;
+}
+.pay-warper .tally-main .tallyM-left .main3{
+    margin-top: 30px;
+    padding: 0 12px;
+}
+.pay-warper .tally-main .tallyM-left .main3 .main3-body{
+    margin-top: 25px;
+    font-size: 14px;
+    color: #333;
+}
+.pay-warper .tally-main .tallyM-left .main3 .main3-body input{
+    width: 16px;
+    height: 16px;
+    vertical-align: sub;
+}
+.pay-warper .tally-main .tallyM-left .main3 .main3-body .defray1, .defray2, .defray3, .defray4{
+    width: 200px;
+    display: inline-block;
+}
+.defray1 i, .defray2 i, .defray3 i, .defray4 i{
+    margin: 0 8px;
+    font-size: 28px;
+    vertical-align: sub;
+}
+.pay-warper .tally-main .tallyM-left .main3 .main3-body p{
+    padding-right: 33px;
+    padding-top: 5px;
+    font-size: 12px;
+    color: #9999;
+    text-align: right;
+}
+.pay-warper .tally-main .tallyM-left .main3 .main3-body p a{
+    color: #9999;
+    text-decoration: none;
+    margin-left: 14px;
+}
+.pay-warper .tally-main .tallyM-left .main3 .main3-body .defray-info{
+    margin: 16px 0 56px;
+}
+.pay-warper .tally-main .tallyM-left .main3 .main3-body .defray-info i{
+    font-size: 22px;
+    vertical-align: middle;
+}
+.pay-warper .tally-main .tallyM-left .main3 .main3-body .btn{
+    width: 310px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #122147;
+    margin-bottom: 30px;
+}
+.pay-warper .tally-main .tallyM-left .peisong{
+    width: 397px;
+    padding: 16px 12px;
+    margin: 24px 0;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #042f6a;
+    position: relative;
+}
+.pay-warper .tally-main .tallyM-left .peisong p{
+    padding-top: 16px;
+}
+.pay-warper .tally-main .tallyM-left .peisong p:nth-child(1){
+    border-bottom: 1px dashed #ccc;
+    padding: 0 0 16px;
+}
+.pay-warper .tally-main .tallyM-left .peisong p i{
+    color: #042f6a;
+    font-style: normal;
+    margin-right: 4px;
+}
+.pay-warper .tally-main .tallyM-left .peisong p span{
+    margin-right: 16px;
+}
+.pay-warper .tally-main .tallyM-left .peisong .default{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    background-color: #042f6a;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.pay-warper .tally-main .tallyM-left .peisong .default i{
+    color: #fff;
+}
+.pay-warper .tally-main .tallyM-left .add{
+    color: #333;
+}
+.pay-warper .tally-main .tallyM-left .add span{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.pay-warper .tally-main .tallyM-left .add i{
+    font-style: normal;
+}
+
+
+.pay-warper .tally-main .tallyM-right{
+    width: 320px;
+}
+.pay-warper .tally-main .tallyM-right .excer{
+    padding: 16px;
+    background-color: #f5f5f5;
+}
+.pay-warper .tally-main .tallyM-right  li{
+    list-style: none;
+    color: #333;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+}
+.pay-warper .tally-main .tallyM-right .excer .excer-tit{
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+.pay-warper .tally-main .tallyM-right .excer .excer-tit span{
+    font-size: 12px;
+    margin-top: 9px;
+}
+.pay-warper .tally-main .tallyM-right .excer .excer-tit span i{
+    font-style: normal;
+}
+.pay-warper .tally-main .tallyM-right .excer .s p{
+    margin: 16px 0;
+}
+.pay-warper .tally-main .tallyM-right .excer li .btn{
+    width: 51px;
+    height: 32px;
+    line-height: 32px;
+    color: #122147;
+    border: 1px solid #000;
+}
+.pay-warper .tally-main .tallyM-right .excer .buy span{
+    font-size: 18px;
+}
+.pay-warper .tally-main .tallyM-right .excer .buy p{
+    margin: 15px 0 30px;
+}
+.pay-warper .tally-main .tallyM-right .excer .buy .btn{
+    width: 238px;
+    padding: 0 24px;
+    height: 38px;
+    color: #fff;
+    background-color: #122147;
+    border: 1px solid #122147;
+}
+.pay-warper .tally-main .tallyM-right .help{
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-top: 34px;
+}
+.pay-warper .tally-main .tallyM-right .help li:last-child{
+    border-bottom: 0;
+}
+.pay-warper .tally-main .tallyM-right .help .help-tit{
+    margin: 21px 0 16px;
+    font-size: 16px;
+}
+.pay-warper .tally-main .tallyM-right .help  span{
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+.pay-warper .tally-main .tallyM-right .help  span i{
+    font-style: normal;
+}
+.warn{
+    font-size: 12px;
+    color: #ed4040;
+}
+.cover{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgba(25,25,25,.5);
+}
+.cover .banner{
+    margin: 50px auto;
+    padding: 32px;
+    width: 580px;
+    /* height: 536px; */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.cover .banner .banner-top{
+    position: relative;
+}
+.cover .banner .banner-top p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+.cover .banner .banner-top .bannerT-close{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 14px;
+    position: absolute;
+    right: 0px;
+    top: -6px;
+}
+.cover .banner .section{
+    margin-bottom: 24px;
+}
+.cover .banner .section p{
+    margin-right: 16px;
+    margin-bottom: 12px;
+    width: 265px;
+    display: inline-block;
+}
+.cover .banner .section input{
+    width: 241px;
+    height: 36px;
+    padding: 0 12px;
+    outline: none;
+    color: #ccc;
+}
+.cover .banner .section .section-per, .section-phon{
+    width: 278px;
+    height: 90px;
+    vertical-align: bottom;
+    display: inline-block;
+}
+.cover .banner .section1 p{
+    width: 174px;
+    margin: 0 16px 12px 0;
+}
+.cover .banner .section1 select{
+    width: 174px;
+    height: 36px;
+    padding: 0 12px;
+    outline: none;
+    border: 1px solid #ccc;
+    color: #ccc;
+    margin-right: 16px;
+}
+.cover .banner .section2 p{
+    width: 572px;
+    margin-bottom: 12px;
+}
+.cover .banner .section2 textarea{
+    width: 539px;
+    height: 78px;
+    padding: 6px 12px;
+    display: block;
+}
+.cover .banner .section2 span{
+    font-size: 12px;
+    /* display: block; */
+}
+.cover .banner .section3 .set-default{
+    margin: 25px 0;
+}
+.cover .banner .section3 .set-default input{
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+}
+.cover .banner .section3 .set-default span{
+    font-size: 14px;
+    color: #606266;
+    margin-left: 5px;
+}
+.cover .banner .section3 .btn{
+    width: 268px;
+    height: 36px;
+    font-size: 14px;
+    color: #122147;
+    line-height: 36px;
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+.cover .banner .section3 .btn:nth-child(3){
+    margin-left: 16px;
+    color: #ffff;
+    background-color: #122147;
+}
+
+
+
+
+

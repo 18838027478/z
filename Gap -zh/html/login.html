@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录-Gap中国官网</title>
+    <link rel="short icon" href="https://gap-cn-node.oss-cn-shanghai.aliyuncs.com/casaba_plus_assets/prod-2020.2.14-1/static/gap-144.f33f599c3d52f4169adf21ba71bf5cc8.png">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1633561_19lno9vl1ym.css">
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="header"></div>
+    <div class="login commonWar">
+        <div class="login-top">
+            <span class="active tab-span tabS-1" onclick="tabFun(1)">短信快捷登录/注册</span>
+            <span class="tab-span tabS-2" onclick="tabFun(2)">账号密码登录</span>
+        </div>
+        <div class="login-main">
+            <div class="loginM-1" >
+                <p class="intr">新会员注册成功后，可获赠10元无门槛会员欢迎礼券及首单双倍积分！</p>
+                <p class="intr">*新会员欢迎礼券将在1-2日送达您的帐户</p>
+                <div class="loginM-warper">
+                    <p>手机号</p>
+                    <input onblur="judement(1)" class="input1" type="text" placeholder="请输入手机号">
+                    <div class="warn phonetir phonetir1 none">请输入手机号码</div>
+                    <div class="warn phonetir phonetir2 none">请输入正确的手机号码</div>
+                </div>
+                <div class="loginM-warper">
+                    <p>图形验证码</p>
+                    <input onblur="judement(2)" class="w213 input2" type="text" placeholder="请输入右侧图片中的验证码">
+                    <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAAoCAIAAAC6iKlyAAAChElEQVR42u3bIU9EMQwAYIJFEBR/gASDOAGaBAlBIlAgMEg8DodAIzAIPAkCyw/AgOIfIEgQIM4BI0uasu31bV27tx1vqTqWXO67ruvbjrnvcRQZcyPBCD1CNz52npf9GKFzBcubNgxds2Ab0DMgODC00VndfvVj9gRzoW/fN4mgszJIjEPwA7ydHDEi/31v9qZE9EPTvkFoPHqJxbnLQ9PEXdyS0EnKUtY1Q2NrMWiGsoh15dBgrQvNmOOPhcVTiBahrXUnNE3PFmRYE9Drh/saG108dOR3ENXeVQVtZHEEM5ot+Hj/aQNe+Ti7xgGaqfleKbSjmVo6eLgmHFaQzS8sMtCpSRqc7+RpTo3uel/gc3D1Cssw0OCY+sWIbIYYt0z5LgTtLH+cp/nQJg03vrZs5PQbxxdXItGrLADNyND4+XalY2jwzWnvNKCTH1gioXGeikD7GxGkrV4fLQXNeQT39/0ymyH8FXIW0taHxgWXB22tiyn/ge7a9wtAY8rUoPsN1QM8us1IPo+uH5ooLDS3apsxGDQUBFlouoLT1jnE0/OJiUhldWi/4IpntCq01QxGUt1QhHZw41fA7tO8jYPLFRuRlIzTVNk+OvfOUOqswzYJwZlGE3xTnwxH6F8+3IfZ9AzONL53D2t+9EL7y79rpbcKDeua4AueKiS1KJYbQ9tXfD6ndEZ2HUpNtGJGE1dZ8RO6chNDO5oOnL8gtPtoPnTkVZYf7DtDelvvLR3sgNLUGLTeLbgGNC5NRFQKbdJQ4/5bHDo+YXvpB4DGi132JwaCp3dlTvrVM1rkxwU5fXRJYiZ010Y0Dqnxf/+14mVpwo5WoXM+c0msKjK6oc88yPgB/kjL2Ut90PQAAAAASUVORK5CYII="
+                        alt="">
+                    <span class="color-9 fs-14">刷新</span>
+                    <div class="warn imgtir imgtir1 none">请输入验证码</div>
+                    <div class="warn imgtir imgtir2 none">请输入正确的验证码</div>
+                </div>
+                <div class="loginM-warper">
+                    <p>验证码</p>
+                    <input onblur="judement(3)" class="w213 input3" type="text" placeholder="请输入短信验证码">
+                    <span class="btn">发送验证码</span>
+                    <div class="warn messagetir  none">请输入短信验证码</div>
+                </div>
+            </div>
+            <div class="loginM-2" style="display: none;">
+                <div class="loginM-warper">
+                    <p>账号</p>
+                    <input onblur="judement(4)" class="input4" type="text" placeholder="请输入账号">
+                    <div class="warn accounttir accounttir1 none">请输入手机号码/邮箱</div>
+                    <div class="warn accounttir accounttir2 none">请输入正确的手机号码/邮箱</div>
+                </div>
+                <div class="loginM-warper">
+                    <p>密码</p>
+                    <div class="pwd">
+                        <input onblur="judement(5)" class="input5" type="password" placeholder="请输入密码">
+                        <i class="iconfont icon-biyan"></i>
+                        <div class="warn pwdtir pwdtir1 none">请输入密码</div>
+                        <div class="warn pwdtir pwdtir2 none">请输入正确的密码</div>
+                    </div>
+                </div>
+                <div class="loginM-warper">
+                    <input type="checkbox" name="" id="" class="inblock ch">
+                    <p class="inblock check">记住我</p>
+                    <a href="javascript:void;" class="check rf forget">忘记密码</a>
+                </div>
+            </div>
+            <div class="landing btn">登录</div>
+            <div class="third">
+                <p>第三方登录</p>
+                <span><i class="iconfont icon-weixin1"></i></span>
+                <span><i class="iconfont icon-qq"></i></span>
+            </div>
+        </div>
+    </div>
+    <!-- 遮罩层 -->
+    <div class="war" style="display: none;">
+        <div class="warper1" >
+            <div class="warper1-top fs-18 color-3">
+                <span>验证手机</span>
+                <i class="iconfont icon-close close"></i>
+            </div>
+            <div class="warper1-main">
+                <div class="loginM-warper">
+                    <p>手机号</p>
+                    <input onblur="judement(6)" class="input6" type="text" placeholder="请输入手机号">
+                    <div class="warn coverphone coverphone1 none">请输入手机号码/邮箱</div>
+                    <div class="warn coverphone coverphone2 none">请输入正确的手机号码/邮箱</div>
+                </div>
+                <div class="loginM-warper">
+                    <p>图形验证码</p>
+                    <input onblur="judement(7)" class="w213 input7" type="text" placeholder="请输入右侧图片中的验证码">
+                    <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAAoCAIAAAC6iKlyAAAChElEQVR42u3bIU9EMQwAYIJFEBR/gASDOAGaBAlBIlAgMEg8DodAIzAIPAkCyw/AgOIfIEgQIM4BI0uasu31bV27tx1vqTqWXO67ruvbjrnvcRQZcyPBCD1CNz52npf9GKFzBcubNgxds2Ab0DMgODC00VndfvVj9gRzoW/fN4mgszJIjEPwA7ydHDEi/31v9qZE9EPTvkFoPHqJxbnLQ9PEXdyS0EnKUtY1Q2NrMWiGsoh15dBgrQvNmOOPhcVTiBahrXUnNE3PFmRYE9Drh/saG108dOR3ENXeVQVtZHEEM5ot+Hj/aQNe+Ti7xgGaqfleKbSjmVo6eLgmHFaQzS8sMtCpSRqc7+RpTo3uel/gc3D1Cssw0OCY+sWIbIYYt0z5LgTtLH+cp/nQJg03vrZs5PQbxxdXItGrLADNyND4+XalY2jwzWnvNKCTH1gioXGeikD7GxGkrV4fLQXNeQT39/0ymyH8FXIW0taHxgWXB22tiyn/ge7a9wtAY8rUoPsN1QM8us1IPo+uH5ooLDS3apsxGDQUBFlouoLT1jnE0/OJiUhldWi/4IpntCq01QxGUt1QhHZw41fA7tO8jYPLFRuRlIzTVNk+OvfOUOqswzYJwZlGE3xTnwxH6F8+3IfZ9AzONL53D2t+9EL7y79rpbcKDeua4AueKiS1KJYbQ9tXfD6ndEZ2HUpNtGJGE1dZ8RO6chNDO5oOnL8gtPtoPnTkVZYf7DtDelvvLR3sgNLUGLTeLbgGNC5NRFQKbdJQ4/5bHDo+YXvpB4DGi132JwaCp3dlTvrVM1rkxwU5fXRJYiZ010Y0Dqnxf/+14mVpwo5WoXM+c0msKjK6oc88yPgB/kjL2Ut90PQAAAAASUVORK5CYII="
+                        alt="">
+                    <span class="color-9 fs-14">刷新</span>
+                    <div class="warn coverimg coverimg1 none">请输入图形验证码</div>
+                    <div class="warn coverimg coverimg2 none">请输入正确的图形验证码</div>
+                </div>
+                <div class="loginM-warper">
+                    <p>验证码</p>
+                    <input onblur="judement(8)" class="w213 input8" type="text" placeholder="请输入短信验证码">
+                    <span class="btn">发送验证码</span>
+                    <div class="warn covermess  none">请输入验证码</div>
+                </div>
+            </div>
+            <div class="btn next">下一步</div>
+        </div>
+        <div class="warper2" style="display: none;">
+            <div class="warper2-top fs-18 color-3">
+                <span>验证手机</span>
+                <i class="iconfont icon-close close"></i>
+            </div>
+            <div class="warper2-main">
+                <div class="loginM-warper">
+                    <p>输入密码</p>
+                    <input onblur="judement(9)" class="input9" type="text" placeholder="请输入密码">
+                    <div class="warn coverpwd coverpwd1 none">请输入密码</div>
+                    <div class="warn coverpwd coverpwd2 none">请输入正确的密码</div>
+                </div>
+                <div class="loginM-warper">
+                    <p>确认新密码</p>
+                    <input onblur="judement(10)" class="input10" type="text" placeholder="请输入确认密码">
+                    <div class="warn coverpwdd coverpwdd1 none">请输入密码</div>
+                    <div class="warn coverpwdd coverpwdd2 none">两次密码不相同</div>
+                </div>
+            </div>
+            <div class="btn">完成并登录</div>
+        </div>
+    </div>
+    <div class="footer"></div>
+</body>
+<script src="../plugin/jquery-1.4.4.min.js"></script>
+<!-- <script src="../plugin/jquery.js"></script> -->
+<script>
+    $(".header").load("../common/header.html")
+    $(".footer").load("../common/footer.html")
+</script>
+<script>
+//tab栏切换
+    function tabFun(value) {
+        //点击时，删除active，在为点击的那个元素添加
+        $(".tab-span").removeClass("active")
+        // $(this).addClass("active").siblings().removeClass("active")
+        if (value == 1) {
+            //点了第一个span。第一个span为active且对应的主题显示
+            $(".loginM-1").css("display", "block")
+            $(".loginM-2").css("display", "none")
+            $(".tabS-1").addClass("active")
+        }
+        else if (value == 2) {
+            $(".loginM-1").css("display", "none")
+            $(".loginM-2").css("display", "block")
+            $(".tabS-2").addClass("active")
+        }
+    }
+//关闭遮罩层
+    $(".close").click(function(){
+        $(".war").hide()
+    })
+//打开遮罩层，，，忘记密码，弹出对话框
+    $(".forget").click(function(){
+        $(".war").show()
+        //忘记密码时，默认是warper1显示，warper2隐藏
+        $(".warper1").show()
+        $(".warper2").hide()
+    })
+//点击下一步，弹出warper2
+    $(".next").click(function(){
+        $(".warper1").hide()
+        $(".warper2").show()
+    })
+//表单验证  鼠标离开input框进行判断
+    function judement(value){//判断
+        if(value===1){//手机验证
+            // console.log($(".input1").val())
+            let res=$(".input1").val();
+            if(res==""){
+                // $(".phonetir1").css("display","block")
+                $(".phonetir1").show()
+                $(".phonetir2").hide()
+                $(".input1").addClass("com-warn")
+            }else if(res!=""&&!(/^1[34578]\d{9}$/.test(res))){
+                $(".phonetir1").hide()
+                $(".phonetir2").show()
+                $(".input1").addClass("com-warn")
+            }else{
+                $(".phonetir1").hide()
+                $(".phonetir2").hide()
+                $(".input1").removeClass("com-warn")
+            }
+        }
+        else if(value===2){//图片验证
+            let res=$(".input2").val();
+            if(res==""){
+                $(".imgtir1").show()
+                $(".imgtir2").hide()
+                $(".input2").addClass("com-warn")
+            }else if(res!=""&&res!="14"){
+                $(".imgtir1").hide()
+                $(".imgtir2").show()
+                $(".input2").addClass("com-warn")
+            }else{
+                $(".imgtir1").hide()
+                $(".imgtir2").hide()
+                $(".input2").removeClass("com-warn")
+            }
+        }
+        else if(value===3){//手机号验证
+            let res=$(".input3").val();
+            if(res==""){
+                $(".messagetir").show()
+                $(".input3").addClass("com-warn")
+            }else if(res!=""){
+                $(".messagetir").hide()
+                $(".input3").removeClass("com-warn")
+            }
+        }
+        else if(value===4){//账号验证
+            let res=$(".input4").val();
+            if(res==""){
+                $(".accounttir1").show()
+                $(".accounttir2").hide()
+                $(".input4").addClass("com-warn")
+            }else if(res!=""&&((/^1[34578]\d{9}$/.test(val)) || /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/.test(val))){
+                $(".accounttir1").hide()
+                $(".accounttir2").show()
+                $(".input4").addClass("com-warn")
+            }else{
+                $(".accounttir1").hide()
+                $(".accounttir2").hide()
+                $(".input4").removeClass("com-warn")
+            }
+        }
+        else if(value===5){//密码验证
+            let res=$(".input5").val();
+            if(res==""){
+                $(".pwdtir1").show()
+                $(".pwdtir2").hide()
+                $(".input5").addClass("com-warn")
+            }else if(res!=""&&res!=="123"){
+                $(".pwdtir1").hide()
+                $(".pwdtir2").show()
+                $(".input5").addClass("com-warn")
+            }else{
+                $(".pwdtir1").hide()
+                $(".pwdtir2").hide()
+                $(".input5").removeClass("com-warn")
+            }
+        }
+        else if(value===6){//遮罩层手机号
+            let res=$(".input6").val();
+            if(res==""){
+                $(".coverphone1").show()
+                $(".coverphone2").hide()
+                $(".input6").addClass("com-warn")
+            }else if(res!=""&&!(/^1[34578]\d{9}$/.test(res))){
+                $(".coverphone1").hide()
+                $(".coverphone2").show()
+                $(".input6").addClass("com-warn")
+            }else{
+                $(".coverphone1").hide()
+                $(".coverphone2").hide()
+                $(".input6").removeClass("com-warn")
+            }
+        }
+        else if(value===7){//遮罩层图形验证码
+            let res=$(".input7").val();
+            if(res==""){
+                $(".coverimg1").show()
+                $(".coverimg2").hide()
+                $(".input7").addClass("com-warn")
+            }else if(res!=""&&res!="14"){
+                $(".coverimg1").hide()
+                $(".coverimg2").show()
+                $(".input7").addClass("com-warn")
+            }else{
+                $(".coverimg1").hide()
+                $(".coverimg2").hide()
+                $(".input7").removeClass("com-warn")
+            }
+        }
+        else if(value===8){//遮罩层短信验证码
+            let res=$(".input8").val();
+            if(res==""){
+                $(".covermess").show()
+                $(".input8").addClass("com-warn")
+            }else if(res!=""){
+                $(".covermess").hide()
+                $(".input8").removeClass("com-warn")
+            }
+        }
+        else if(value===9){//遮罩层密码验证
+            let res=$(".input9").val();
+            if(res==""){
+                $(".coverpwd1").show()
+                $(".coverpwd2").hide()
+                $(".input9").addClass("com-warn")
+            }else if(res!=""&&res!=="123"){
+                $(".coverpwd1").hide()
+                $(".coverpwd2").show()
+                $(".input9").addClass("com-warn")
+            }else{
+                $(".coverpwd1").hide()
+                $(".coverpwd2").hide()
+                $(".input9").removeClass("com-warn")
+            }
+        }
+        else if(value===10){//密码再次验证
+            let res1=$(".input9").val();
+            let res2=$(".input10").val();
+            if(res1==""){
+                $(".coverpwdd1").show()
+                $(".coverpwdd2").hide()
+                $(".input10").addClass("com-warn")
+            }else if(res1!=""&&res2!=""&&res1!==res2){
+                $(".coverpwdd1").hide()
+                $(".coverpwdd2").show()
+                $(".input9").addClass("com-warn")
+                $(".input10").addClass("com-warn")
+            }else{
+                $(".coverpwd1").hide()
+                $(".coverpwd2").hide()
+                $(".coverpwdd2").hide()
+                $(".coverpwdd2").hide()
+                $(".input9").removeClass("com-warn")
+                $(".input10").removeClass("com-warn")
+            }
+        }
+    }
+</script>
+
+</html>

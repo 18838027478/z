@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>旋转</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <style>
+        .flip {
+            transform: rotateY(180deg);
+        }
+
+        .flipper,.front, .back{
+            width: 100px;
+            height:100px;
+        }
+        .flipper {
+            transition: 0.6s;
+            /*让转换的子元素保留3D转换*/
+            transform-style: preserve-3d;
+            position: relative;
+        }
+
+        .front, .back {
+            /*隐藏旋转的背面*/
+            backface-visibility: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .front {
+            transform: rotateY(0deg);
+        }
+        .back {
+            transform: rotateY(180deg);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flipper">
+        <div class="front" style="background-color: #67cf80">
+        </div>
+        <div class="back" style="background-color: #ed4040">
+        </div>
+    </div>
+</body>
+</html>
+<script>
+
+    var state = true;
+    $(".flipper").click(function(){
+        if(state){
+            $(".flipper").addClass('flip');
+            state=false
+        }
+        else{
+            $(".flipper").removeClass('flip');
+            state=true
+        }
+
+    })
+</script>

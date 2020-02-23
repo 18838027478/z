@@ -1,0 +1,58 @@
+.cocoon{
+
+}
+.cocoon .image, .cocoon .image img{
+    width: 100%;
+}
+.cocoon .image2{
+    margin-bottom: 40px;
+}
+.cocoon .image3, .image4, .image2, .image5{
+    width: 100%;
+    text-align: center;
+}
+.cocoon .swiper-container1{
+    margin: 40px auto;
+    width: 1200px;
+}
+.cocoon .swiper-container2{
+    margin-bottom: 40px;
+    padding-bottom: 22px;
+    /* background-color: pink; */
+}
+.cocoon .swiper-container2 .swiper-pagination{
+    bottom: -4px;
+}
+.cocoon .swiper-container2, .cocoon .swiper-container2 img{
+    width: 100%;
+    height: 557px;
+}
+ .swiper-button-next, .swiper-button-prev{
+    color: #000;
+}
+.swiper-container2 .swiper-button-next{
+    right: 250px;
+}
+.swiper-container2 .swiper-button-prev{
+    left: 250px;
+}
+.cocoon .swiper-container1 .image{
+    width: 227px;
+}
+.cocoon .swiper-container1 .image p{
+    font-size: 14px;
+    height: 40px;
+    margin-top: 10px;
+}
+.cocoon .swiper-container1 .image span{
+    font-size: 14px;
+    color: #000;
+    /* text-align: left; */
+}
+.cocoon .swiper-container1 .image span i{
+    font-size: 12px;
+    color: #999;
+    font-style: normal;
+    text-decoration: line-through;
+    margin-left: 5px;
+}

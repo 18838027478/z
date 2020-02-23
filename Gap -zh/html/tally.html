@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>结算-Gap中国官网</title>
+    <link rel="short icon"
+        href="https://gap-cn-node.oss-cn-shanghai.aliyuncs.com/casaba_plus_assets/prod-2020.2.14-1/static/gap-144.f33f599c3d52f4169adf21ba71bf5cc8.png">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1633561_19lno9vl1ym.css">
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="../css/tally.css">
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="tally-warper commonWar">
+        <div class="tally-top">
+            <div class="w1200">
+                <div class="back">
+                    <span onclick="gosack()"><i class="iconfont icon-xiangzuo"></i>返回购物袋</span>
+                </div>
+                <a href="javascript:void;">
+                    <img src="" alt="">
+                </a>
+                <div class="rf">
+                    <span>400-680-8571</span>
+                    <span><i class="iconfont icon-service"></i>在线客服</span>
+                </div>
+            </div>
+        </div>
+        <div class="tally-main">
+            <div class="w1200">
+                <div class="tallyM-left lf">
+                    <div class="tallyM-L-tit">
+                        <p>配送信息</p>
+                    </div>
+                    <div class="tallyM-L-body">
+                        <div class="section">
+                            <div class="section-per">
+                                <p>收件人</p>
+                                <input onblur="test(1)" class="input1" type="text" placeholder="请输入姓名">
+                                <span class="warn warn1 none">请输入收件人姓名</span>
+                                <span class="warn  warn2 none">请输入正确的姓名</span>
+                            </div>
+                            <div class="section-phon">
+                                <p>手机号</p>
+                                <input onblur="test(2)" class="input2" type="text" placeholder="请输入手机号码">
+                                <span class="warn warn3 none">请输入收件人联系电话</span>
+                                <span class="warn  warn4 none">请输入正确的联系电话</span>
+                            </div>
+                        </div>
+                        <div class="section section1">
+                            <p>省</p>
+                            <p>市</p>
+                            <p>区</p>
+                            <!-- <input type="text"  placeholder="请选择省"> -->
+                            <select name="shen" id="count" onchange="getcountry()">
+                                <option value="">请选择省</option>
+                            </select>
+                            <select name="shen" id="city" onchange="getcity()">
+                                <option value="">请选择市</option>
+                            </select>
+                            <select name="shen" id="ear" onchange="getear()" onblur="test(5)">
+                                <option value="">请选择区</option>
+                            </select>
+                            <span class="warn  warn6 none">请选择区域</span>
+
+                        </div>
+                        <div class="section section2">
+                            <p>详细地址</p>
+                            <textarea onfocus="emp()" onblur="test(3)" class="input3" name="url" id="" cols="30"
+                                rows="10">请输入详细地址</textarea>
+                            <span class="warn warn5 none">请输入详细地址</span>
+                        </div>
+                        <div class="section section3">
+                            <p>配送方式</p>
+                            <span>快递</span>
+                            <span>免运费</span>
+                        </div>
+                    </div>
+                    <div class="main2">
+                        <div class="tallyM-L-tit">
+                            <p>商品信息</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="info">
+                                    <img src="https://uxresources.baozun.com/prod/88000136/20191230/07E4D73894B92830386486BA41A9518F.jpg"
+                                        alt="">
+                                </div>
+                                <div class="info1">
+                                    <span>Gap</span>
+                                    <p>女装|休闲舒适宽松牛仔裤</p>
+                                    <p class="info1-p">
+                                        <span>颜色：<i>深色水洗做旧</i></span>
+                                        <span>尺码：<i>110cm(s)</i></span>
+                                    </p>
+                                </div>
+                                <div class="info2">
+                                    <p>
+                                        <span>￥149.50<s>￥299.00</s></span>
+                                    </p>
+                                </div>
+                                <div class="info3">
+                                    <p>小计<span class="total">￥149.50</span></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info">
+                                    <img src="https://uxresources.baozun.com/prod/88000136/20191230/07E4D73894B92830386486BA41A9518F.jpg"
+                                        alt="">
+                                </div>
+                                <div class="info1">
+                                    <span>Gap</span>
+                                    <p>女装|休闲舒适宽松牛仔裤</p>
+                                    <p class="info1-p">
+                                        <span>颜色：<i>深色水洗做旧</i></span>
+                                        <span>尺码：<i>110cm(s)</i></span>
+                                    </p>
+                                </div>
+                                <div class="info2">
+                                    <p>
+                                        <span>￥149.50<s>￥299.00</s></span>
+                                    </p>
+                                </div>
+                                <div class="info3">
+                                    <p>小计<span class="total">￥149.50</span></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info">
+                                    <img src="https://uxresources.baozun.com/prod/88000136/20191230/07E4D73894B92830386486BA41A9518F.jpg"
+                                        alt="">
+                                </div>
+                                <div class="info1">
+                                    <span>Gap</span>
+                                    <p>女装|休闲舒适宽松牛仔裤</p>
+                                    <p class="info1-p">
+                                        <span>颜色：<i>深色水洗做旧</i></span>
+                                        <span>尺码：<i>110cm(s)</i></span>
+                                    </p>
+                                </div>
+                                <div class="info2">
+                                    <p>
+                                        <span>￥149.50<s>￥299.00</s></span>
+                                    </p>
+                                </div>
+                                <div class="info3">
+                                    <p>小计<span class="total">￥149.50</span></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main3">
+                        <div class="tallyM-L-tit">
+                            <p>支付信息</p>
+                        </div>
+                        <div class="main3-body">
+                            <div class="defray1">
+                                <input type="radio" name="defray" id="" checked>
+                                <span><i class="iconfont icon-zhifubao"></i>支付宝支付</span>
+                            </div>
+                            <div class="defray2">
+                                <input type="radio" name="defray" id="">
+                                <span><i class="iconfont icon-wechat"></i>微信支付</span>
+                            </div>
+                            <div class="defray3">
+                                <input type="radio" name="defray" id="">
+                                <span><i class="iconfont icon-shinshoplipinqia"></i>Gap礼品卡支付</span>
+                            </div>
+                            <div class="defray4">
+                                <input type="radio" name="defray" id="">
+                                <span><i class="iconfont icon-shinshoplipinqia"></i>Old Navy礼品卡支付</span>
+                            </div>
+                            <p>查看礼品卡说明 <a href="javascript:void;">查询余额</a></p>
+                            <div class="defray-info">
+                                <i class="iconfont icon-ticket"></i>
+                                <span>发票说明</span>
+                            </div>
+                            <div class="btn" onclick="gopayment()">提交订单</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tallyM-right rf">
+                    <ul class="excer">
+                        <li>
+                            <p class="excer-tit">订单摘要<span class="rf">已选<i>7</i>件商品</span></p>
+                        </li>
+                        <li class="s">
+                            <p>商品总额<span class="rf">￥<i class="tot2">0.00</i></span></p>
+                            <p>优惠<i class="iconfont "></i><span class="rf">￥0.00</span></p>
+                        </li>
+                        <li class="buy">
+                            <p>订单总金额<span class="rf">￥<i class="tot2">0.00</i></span></p>
+                            <p>下单即可能获取积分<a href="javascript:void;">查看规则</a></p>
+                            <div class="btn " onclick="gopayment()">提交订单</div>
+                        </li>
+                    </ul>
+                    <ul class="help">
+                        <li>
+                            <p class="help-tit">需要帮助？<span class="rf"><i class="explain-open none">+</i><i
+                                        class="explain-close ">-</i></span>
+                            </p>
+                            <div class="explain-encl">
+                                <p><i class="iconfont "></i>在线客服<span>(服务时间：10：00-22：00)</span></p>
+                                <p>售后服务热线</p>
+                                <p>400-680-8571<span>(服务时间：10：00-19：00)</span></p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="help-tit">支付方式<span class="rf"><i class="explain-open">+</i><i
+                                        class="explain-close none">-</i></span>
+                            </p>
+                            <div class="explain-encl none">
+                                <span><i class="iconfont "></i>支付宝</span>
+                                <span><i class="iconfont "></i>微信</span>
+                                <span><i class="iconfont "></i>礼品卡</span>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="help-tit">退换政策<span class="rf"><i class="explain-open">+</i><i
+                                        class="explain-close none">-</i></span>
+                            </p>
+                            <div class="explain-encl none">
+                                <p>
+                                    我们提供完善的售后服务，承诺自顾客签收商品之日（以签收快递日期为准）起15天内（减价商品和正价商品)，如对商品有任何不满意，我们将提供无理由退换货服务。以初上市吊牌价销售的商品退换货费用全免（不包括参与限时促销的正价商品和减价商品）。<a
+                                        href="javascript:void;">更多详情</a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer"></div>
+</body>
+<script src="../plugin/jquery.js"></script>
+<!-- <script src="../plugin/jquery-1.4.4.min.js"></script> -->
+<script>
+    $(".header").load("../common/header.html")
+    $(".footer").load("../common/footer.html")
+</script>
+<script src="../js/country.js"></script>
+<script>
+    let newurl = window.location.href
+    let price = newurl.split("?price=")[1]
+    console.log(price)
+    $(".tot2")[0].innerText = price
+    $(".tot2")[1].innerText = price
+    //首先。获取省，为下拉列表传上值
+    var html = ''
+    for (var i = 0; i < country.length; i++) {
+        html += '<option >' + country[i].name + '</option>'
+    }
+    $("#count").append(html)
+
+    //根据选定的省，获取相应的市，并添加
+    function getcountry() {//省发生改变，，，
+        var index = $("#count").children("option:selected").index() - 1
+        console.log(index)//当前选中的省
+        var city = ""
+        for (var i = 0; i < country[index].city.length; i++) {
+            city += '<option >' + country[index].city[i].name + '</option>'
+        }
+        console.log(city)
+        $("#city").children().not(":eq(0)").remove()
+        $("#city").append(city)
+    }
+    //根据选定的市获取对应的区
+    function getcity() {
+        var index1 = $("#count").children("option:selected").index() - 1
+        var index2 = $("#city").children("option:selected").index() - 1
+        var len = country[index1].city[index2].area.length;
+        $("#ear").children().not(':eq(0)').remove()
+        var area = '';
+        for (let i = 0; i < len; i++) {
+            area += `<option value="">` + country[index1].city[index2].area[i] + `</option>`
+        }
+        $("#ear").append(area)
+    }
+    //获取三级联动省市区结果
+    function getear() {
+        var index1 = $("#count").children("option:selected").index() - 1
+        var index2 = $("#city").children("option:selected").index() - 1
+        var index3 = $("#ear").children("option:selected").index() - 1
+        console.log(country[index1].name, "省")
+        console.log(country[index1].city[index2].name, "市")
+        console.log(country[index1].city[index2].area[index3], "区")
+    }
+
+    //表单验证
+    function test(value) {
+        if (value == 1) {
+            let res = $(".input1").val();
+            if (res == "") {
+                $(".warn1").show()
+                $(".input1").addClass("com-warn")
+            } else if (res != "") {
+                $(".warn1").hide()
+                $(".input1").removeClass("com-warn")
+            }
+        } else if (value == 2) {
+            let res = $(".input2").val();
+            if (res == "") {
+                $(".warn3").show()
+                $(".input2").addClass("com-warn")
+            } else if (res != "") {
+                $(".warn3").hide()
+                $(".input2").removeClass("com-warn")
+            }
+        } else if (value == 3) {
+            let res = $(".input3").val();
+            if (res == "") {
+                $(".warn5").show()
+                $(".input3").addClass("com-warn")
+            } else if (res != "") {
+                $(".warn5").hide()
+                $(".input3").removeClass("com-warn")
+            }
+        } else if (value == 5) {
+            if ($("#count").children("option:selected").index() === 0 || $("#city").children("option:selected").index() === 0 || $("#ear").children("option:selected").index() === 0) {
+                $(".warn6").show()
+                $("#count").addClass("com-warn")
+                $("#city").addClass("com-warn")
+                $("#ear").addClass("com-warn")
+            } else {
+                $(".warn6").hide()
+                $("#count").removeClass("com-warn")
+                $("#city").removeClass("com-warn")
+                $("#ear").removeClass("com-warn")
+            }
+        }
+    }
+    //获取焦点，清空文本框值
+    function emp(ev) {
+        console.log(ev)
+        // $(this).value=""
+        $(".input3").val = "";
+
+    }
+    function gopay() {
+
+    }
+    //点击提交订单，，跳转到支付页面
+    function gopayment() {
+        // 首先进行判断，，，配送信息是否填写完整
+        if ($(".input1").val() != "" || $(".input2").val() != "" || $(".input3").val() != "") {
+            window.location.href = '../html/pay.html'
+        } else {
+            window.location.href = '../html/payment.html'
+        }
+    }
+    //返回购物袋
+    function gosack() {
+        window.location.href = '../html/sack.html'
+    }
+    //帮助模块展开折起
+    $(".help li ").click(function () {
+        var index = $(this).index()//获取当前点击的下标
+        if ($(this).find(".explain-close")[0].style.display == "inline") {
+            $(this).find(".explain-close").toggle()
+            $(this).find(".explain-open").toggle()
+            $(this).find(".explain-encl").toggle()
+        } else {
+            $(".explain-close").hide()
+            $(".explain-open").show()
+            $(".explain-encl").hide()
+            $(".help li").eq(index).find(".explain-open").toggle()
+            $(".help li").eq(index).find(".explain-close").toggle()
+            $(".help li").eq(index).find(".explain-encl").toggle()
+        }
+    })
+</script>
+
+</html>

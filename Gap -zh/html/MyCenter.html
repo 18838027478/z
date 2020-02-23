@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人信息管理-Gap中国官网</title>
+    <link rel="short icon"
+        href="https://gap-cn-node.oss-cn-shanghai.aliyuncs.com/casaba_plus_assets/prod-2020.2.14-1/static/gap-144.f33f599c3d52f4169adf21ba71bf5cc8.png">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1633561_19lno9vl1ym.css">
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="../css/MyCenter.css">
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="person commonWar">
+        <div class="w1200">
+            <div class="person-left lf">
+                <div class="member">
+                    <p><i class="iconfont icon-denglu"></i> 会员中心</p>
+                    <span class="personL-SP-on span1" onclick="jump(0)">我的账户</span>
+                    <span class="span2" onclick="jump(1)">个人信息</span>
+                    <span class="span3" onclick="jump(2)">地址薄</span>
+                    <span class="span4" onclick="jump(3)">积分</span>
+                    <span class="span5" onclick="jump(4)">优惠劵</span>
+                </div>
+                <div class="order">
+                    <p><i class="iconfont icon-shouye"></i> 订单信息</p>
+                    <span class="span6" onclick="jump(5)">我的订单</span>
+                    <span class="span7" onclick="jump(6)">我的退换货</span>
+                </div>
+            </div>
+            <div class="person-right rf">
+                <div class="span-tab span1-tab">
+                    <h1>我的账户</h1>
+                    <div class="person-top">
+                        <div class="personT-left lf">
+                            <div class="left1">
+                                <strong>您好，188****7478</strong><span class="rf">退出登录</span>
+                                <span class="">欢迎光临Gap中国官网！</span>
+                            </div>
+                            <div class="left2">
+                                <strong>尊敬的蓝卡会员</strong>
+                                <span class="">感谢成为我们的蓝卡会员，你可点击查看<a href="javascript:void">会员权益</a></span>
+                            </div>
+                            <div class="left3">
+                                <div class="mission">
+                                    <p></p>
+                                    <span class="point"><i class="iconfont icon-duihao"></i></span>
+                                    <span class="littlePoint"></span>
+                                </div>
+                                <strong>蓝卡会员</strong><span class="rf">您再消费<s>￥1,200.00</s>可升级<em>银卡会员</em></span>
+                            </div>
+                        </div>
+                        <div class="personT-right rf">
+                            <div class="right1">
+                                <img src="https://gap-cn-node.oss-cn-shanghai.aliyuncs.com/casaba_plus_assets/prod-2020.2.14-1/static/gap-vip1@2x.7c5df525945bc32b474ce2fd76497981.png"
+                                    alt="">
+                                <div class="img-tab">
+                                    <div class="img1">
+                                        <p>188****7487 IS VIP BLUE</p>
+                                        <p class="slew">查看二维码</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right2">
+                                <p>188****7478 IS VIP BLUE</p>
+                                <span>我是二维码</span>
+                                <p>序列号：1120021600010039</p>
+                                <p class="slew">查看会员卡</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="person-mess">
+                        <ul>
+                            <li>
+                                <span><i class="iconfont icon-grxx"></i></span>
+                                <div class="person-m1">
+                                    <p>个人信息</p>
+                                    <p><strong>188****7478</strong></p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="blue"><i class="iconfont icon-dizhibu"></i></span>
+                                <div class="person-m1">
+                                    <p>地址薄</p>
+                                    <p><strong>0</strong>个</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="blue"><i class="iconfont icon-jifen"></i></span>
+                                <div class="person-m1">
+                                    <p>积分</p>
+                                    <p><strong>0</strong>分</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="pink"><i class="iconfont icon-hebingxingzhuang"></i></span>
+                                <div class="person-m1">
+                                    <p>优惠卷</p>
+                                    <p><strong>1</strong>张</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="person-myOrder">
+                        <div class="tab-myOrder">
+                            <span class="tabM-on myOrderSp1" onclick="myorderTab(1)">我的订单</span>
+                            <span class="myOrderSp2" onclick="myorderTab(2)">我的退换货</span>
+                        </div>
+                        <div class="tab1">
+                            <ul>
+                                <li>
+                                    <div class="tab1-left lf">
+                                        <p class="head-tab1">订单编号：<span>1200021911294685814</span>下单时间：<span>2020/02/19
+                                                11：29：47</span>
+                                        </p>
+                                        <img src="https://uxresources.baozun.com/prod/88000136/20191230/07E4D73894B92830386486BA41A9518F.jpg?x-oss-process=image/resize,m_pad,w_250,h_325"
+                                            alt="">
+                                        <div class="tab1-l-info">
+                                            <p>Gap</p>
+                                            <p>女孩|休闲舒适宽松牛仔裤</p>
+                                            <span>深色水洗做旧 110cm(5)</span>
+                                            <p>￥159.00<s>￥299.00 ×1</s></p>
+                                        </div>
+                                    </div>
+                                    <div class="tab1-right rf">
+                                        <p class="head-tab1">共2件商品 订单金额：￥299.00</p>
+                                        <strong>待支付</strong>
+                                        <p class="xiangqing">查看订单详情</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="tab1-left lf">
+                                        <p class="head-tab1">订单编号：<span>1200021911294685814</span>下单时间：<span>2020/02/19
+                                                11：29：47</span>
+                                        </p>
+                                        <img src="https://uxresources.baozun.com/prod/88000136/20191107/FD49ED587F1DC285875A60B31F007985.jpg?x-oss-process=image/resize,m_pad,w_250,h_325"
+                                            alt="">
+                                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/8A39BD1855A8A23EA0A368B4757D2BF7.jpg?x-oss-process=image/resize,m_pad,w_250,h_325"
+                                            alt="">
+                                        <img src="https://uxresources.baozun.com/prod/88000136/20191206/0E79177118659FA9E2A3EFF6550B2F71.jpg?x-oss-process=image/resize,m_pad,w_250,h_325"
+                                            alt="">
+                                    </div>
+                                    <div class="tab1-right rf">
+                                        <p class="head-tab1">共2件商品 订单金额：￥299.00</p>
+                                        <strong>待支付</strong>
+                                        <p class="xiangqing">查看订单详情</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="look">
+                                <p><span class="pointer" onclick="goleftmyOrder()">查看全部订单<i
+                                            class="iconfont icon-xiangyou"></i></span></p>
+                            </div>
+                        </div>
+                        <div class="tab2 none">
+                            <p>您的账户还没有退换货记录</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="span-tab span2-tab none">
+                    <h1>个人信息</h1>
+                    <div class="account">
+                        <h3>账户信息</h3>
+                        <p><span>手机号：</span>188****7478</p>
+                        <p onclick="rewrite()"><i class="iconfont icon-bianji"></i>修改密码</p>
+                    </div>
+                    <div class="perfe">
+                        <h3>个人资料<span>*完善生日信息可获得积分</span></h3>
+                        <p>用户名<span>(一旦确认无法修改)</span></p>
+                        <input type="text" class="input" placeholder="请输入您的用户名">
+                        <p>性别<span>(一旦确认无法修改)</span></p>
+                        <input type="radio" name="sex" class="radio" id=""><em>女性</em>
+                        <input type="radio" name="sex" class="radio" id=""><em>男性</em>
+                        <p>生日<span>(一旦确认无法修改)</span></p>
+                        <select name="" id="">
+                            <option value=""></option>
+                        </select>
+                        <select name="" id="">
+                            <option value=""></option>
+                        </select>
+                        <select name="" id="">
+                            <option value=""></option>
+                        </select>
+                        <p>电子邮箱</p>
+                        <input type="text" class="input" placeholder="请输入电子邮箱">
+                        <p>宝宝性别<span>(一旦确认无法修改)</span></p>
+                        <input type="radio" class="radio" name="sex" id=""><em>女宝宝</em>
+                        <input type="radio" class="radio" name="sex" id=""><em>男宝宝</em>
+                        <p>宝宝生日<span>(一旦确认无法修改)</span></p>
+                        <select name="" id="">
+                            <option value=""></option>
+                        </select>
+                        <select name="" id="">
+                            <option value=""></option>
+                        </select>
+                        <select name="" id="">
+                            <option value=""></option>
+                        </select>
+                        <p class="addBody pointer"><span>+</span>增加一个宝宝的信息</p>
+                        <div class="erBody none">
+                            <p>二宝性别<span>(一旦确认无法修改)</span></p>
+                            <input type="radio" class="radio" name="sex" id=""><em>女宝宝</em>
+                            <input type="radio" class="radio" name="sex" id=""><em>男宝宝</em>
+                            <p>二宝生日<span>(一旦确认无法修改)</span></p>
+                            <select name="" id="">
+                                <option value=""></option>
+                            </select>
+                            <select name="" id="">
+                                <option value=""></option>
+                            </select>
+                            <select name="" id="">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                        <div class="btn">重置</div>
+                        <div class="btn rej">提交</div>
+                    </div>
+                </div>
+                <div class="span-tab span3-tab none">
+                    <h1>地址薄</h1>
+                    <div class="dizhi">
+                        <table>
+                            <tr>
+                                <th></th>
+                                <th>收件人</th>
+                                <th>地址</th>
+                                <th>手机号</th>
+                                <th>操作</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="radio" name="" id="">
+                                    默认地址
+                                </td>
+                                <td>智慧敏</td>
+                                <td>北京省北京市东城区</td>
+                                <td>18838027478</td>
+                                <td><i class="iconfont icon-bianji"></i>编辑<i class="iconfont icon-shanchu"></i>删除</td>
+                            </tr>
+                        </table>
+                        <div class="btnpar">
+                            <div class="btn newadd" onclick="newAdd()">新增收货地址</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span-tab span4-tab none">
+                    <h1>积分<span class="rf">查看积分规则</span></h1>
+                    <div class="jifen">
+                        <div class="jifen-tit">
+                            <div class="jifen-tit-p">
+                                <span>当前可用积分<strong>0</strong></span>
+                                <span>本月底即将过期<strong>0</strong>积分</span>
+                                <div class="btn rf">如何获得积分？</div>
+                            </div>
+                            <p>*您可重新登录账号，查看最新积分</p>
+
+                        </div>
+                        <div class="jifen-tab">
+                            <span class="jifen-active" onclick="qiehuanjifen(2)">全部记录</span>
+                            <span onclick="qiehuanjifen(3)">获取记录</span>
+                            <span onclick="qiehuanjifen(4)">使用记录</span>
+                        </div>
+                        <div class="jifen-tab-tab1 jifen-tab-tab2 ">
+                            <p>暂无积分记录</p>
+                        </div>
+                        <div class="jifen-tab-tab1 jifen-tab-tab3 none">
+                            <p>暂无积分记录2</p>
+                        </div>
+                        <div class="jifen-tab-tab1 jifen-tab-tab4 none">
+                            <p>暂无积分记录3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="span-tab span5-tab none">
+                    <h1>优惠劵</h1>
+                    <div class="youhui">
+                        <div class="youhui-tab">
+                            <span class="span-active first pointer" onclick="youhuitab(1)">官网优惠劵<i>(1张)</i></span>
+                            <span class="second pointer" onclick="youhuitab(2)">门店官网通用优惠劵<i>(0张)</i></span>
+                        </div>
+                        <div class="youhui-tab1">
+                            <div class="youhui-tab1-tab">
+                                <span class="span-active1 three pointer" onclick="youhuitab(3)">可使用</span>
+                                <span class="four pointer" onclick="youhuitab(4)">已使用</span>
+                                <span class="rf color-3">优惠劵使用规则</span>
+                            </div>
+                            <div class="tab-tab1">
+                                <div class="tax">
+                                    <div class="tax-top">
+                                        <span>￥</span><span>10</span>
+                                        <p>新会员欢迎礼劵</p>
+                                        <p>有效期：2020.02.16-2020.03.01</p>
+                                        <div class="btn">满减劵</div>
+                                    </div>
+                                    <div class="tax-bottom">
+                                        <p><span>优惠说明：</span>满11.00减10.00</p>
+                                        <p><span>可使用次数：</span>1次(已使用0次)</p>
+                                        <div class="btn">优惠劵详情</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-tab2 none">
+                                <p>暂无优惠劵1</p>
+                            </div>
+                        </div>
+                        <div class="youhui-tab2 none">
+                            <div class="youhui-tab1-tab">
+                                <span class="span-active1 five pointer" onclick="youhuitab(5)">可使用</span>
+                                <span class="six pointer" onclick="youhuitab(6)">已使用</span>
+                                <span class="rf color-3">优惠劵使用规则</span>
+                            </div>
+                            <div class=" tab2-tab1">
+                                <p>暂无优惠劵2</p>
+                            </div>
+                            <div class=" tab2-tab2 none">
+                                <p>暂无优惠劵3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span-tab span6-tab none">
+                    <h1>我的订单</h1>
+                    <div class="dingdan">
+                        <div class="dingdan-tab">
+                            <span class="span-active pointer" onclick="dingdan(0)">全部订单</span>
+                            <span class="pointer" onclick="dingdan(1)">待支付</span>
+                            <span class="pointer" onclick="dingdan(2)">待发货</span>
+                            <span class="pointer" onclick="dingdan(3)">待收货</span>
+                            <span class="pointer" onclick="dingdan(4)">已完成</span>
+                        </div>
+                        <div class="dingdan-tab-main dingdan-tab-main1">
+                            <ul>
+                                <li>
+                                    <div class="tab1-left lf">
+                                        <p class="head-tab1">订单编号：<span>1200021911294685814</span>下单时间：<span>2020/02/19
+                                                11：29：47</span>
+                                        </p>
+                                        <img src="https://uxresources.baozun.com/prod/88000136/20191230/07E4D73894B92830386486BA41A9518F.jpg?x-oss-process=image/resize,m_pad,w_250,h_325"
+                                            alt="">
+                                        <div class="tab1-l-info">
+                                            <p>Gap</p>
+                                            <p>女孩|休闲舒适宽松牛仔裤</p>
+                                            <span>深色水洗做旧 110cm(5)</span>
+                                            <p>￥159.00<s>￥299.00 ×1</s></p>
+                                        </div>
+                                    </div>
+                                    <div class="tab1-right rf">
+                                        <p class="head-tab1">共2件商品 订单金额：￥299.00</p>
+                                        <strong>待支付</strong>
+                                        <p class="xiangqing">查看订单详情</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="tab1-left lf">
+                                        <p class="head-tab1">订单编号：<span>1200021911294685814</span>下单时间：<span>2020/02/19
+                                                11：29：47</span>
+                                        </p>
+                                        <img src="https://uxresources.baozun.com/prod/88000136/20191107/FD49ED587F1DC285875A60B31F007985.jpg?x-oss-process=image/resize,m_pad,w_250,h_325"
+                                            alt="">
+                                        <img src="https://uxresources.baozun.com/prod/88000136/20190925/8A39BD1855A8A23EA0A368B4757D2BF7.jpg?x-oss-process=image/resize,m_pad,w_250,h_325"
+                                            alt="">
+                                        <img src="https://uxresources.baozun.com/prod/88000136/20191206/0E79177118659FA9E2A3EFF6550B2F71.jpg?x-oss-process=image/resize,m_pad,w_250,h_325"
+                                            alt="">
+                                    </div>
+                                    <div class="tab1-right rf">
+                                        <p class="head-tab1">共2件商品 订单金额：￥299.00</p>
+                                        <strong>待支付</strong>
+                                        <p class="xiangqing">查看订单详情</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="tab1-left lf">
+                                        <p class="head-tab1">订单编号：<span>1200021911294685814</span>下单时间：<span>2020/02/19
+                                                11：29：47</span>
+                                        </p>
+                                        <img src="https://uxresources.baozun.com/prod/88000136/20191107/FD49ED587F1DC285875A60B31F007985.jpg?x-oss-process=image/resize,m_pad,w_250,h_325"
+                                            alt="">
+                                        <img src="https://uxresources.baozun.com/prod/88000136/20190725/90759B5A1BCD9DDA8BE4F10A49BD2966.jpg?x-oss-process=image/resize,m_fill,w_250,h_325"
+                                            alt="">
+                                        <img src="https://uxresources.baozun.com/prod/88000136/20191206/0E79177118659FA9E2A3EFF6550B2F71.jpg?x-oss-process=image/resize,m_pad,w_250,h_325"
+                                            alt="">
+                                        <img src="https://uxresources.baozun.com/prod/88000136/20190721/4322C00D6DD505EBC3088EB2B96A9B41.jpg?x-oss-process=image/resize,m_fill,w_250,h_325"
+                                            alt="">
+                                    </div>
+                                    <div class="tab1-right rf">
+                                        <p class="head-tab1">共2件商品 订单金额：￥299.00</p>
+                                        <strong>待支付</strong>
+                                        <p class="xiangqing">查看订单详情</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dingdan-tab-main none">
+                            <p>暂无订单信息</p>
+                        </div>
+                        <div class="dingdan-tab-main none">
+                            <p>暂无订单信息</p>
+                        </div>
+                        <div class="dingdan-tab-main none">
+                            <p>暂无订单信息</p>
+                        </div>
+                        <div class="dingdan-tab-main none">
+                            <p>暂无订单信息</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="span-tab span7-tab none">
+                    <h1>我的退换货</h1>
+                    <div class="youhui">
+                        <div class="youhui-tab">
+                            <span class="span-active first pointer" onclick="youhuitab(1)">退货订单</span>
+                            <span class="second pointer" onclick="youhuitab(2)">换货订单</span>
+                        </div>
+                        <div class="youhui-tab1">
+                            <div class="youhui-tab1-tab">
+                                <span class="span-active1 three pointer" onclick="youhuitab(3)">处理中</span>
+                                <span class="four pointer" onclick="youhuitab(4)">已完成</span>
+                            </div>
+                            <div class="tab-tab1">
+                                <p>你的账户还没有记录</p>
+                            </div>
+                            <div class="tab-tab2 none">
+                                <p>你的账户还没有记录1</p>
+                            </div>
+                        </div>
+                        <div class="youhui-tab2 none">
+                            <div class="youhui-tab1-tab">
+                                <span class="span-active1 five pointer" onclick="youhuitab(5)">处理中</span>
+                                <span class="six pointer" onclick="youhuitab(6)">已完成</span>
+                            </div>
+                            <div class=" tab2-tab1">
+                                <p>你的账户还没有记录2</p>
+                            </div>
+                            <div class=" tab2-tab2 none">
+                                <p>你的账户还没有记录3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+    <div class="cover none">
+        <div class="cover-banner">
+            <div class="banner-top">
+                <h1>修改密码</h1>
+                <span class="closerewrit">×</span>
+            </div>
+            <div class="banner-main">
+                <p>旧密码</p>
+                <input type="text" placeholder="请输入旧密码">
+                <p>新密码</p>
+                <input type="text" placeholder="请输入新密码">
+                <p>确认新密码</p>
+                <input type="text" placeholder="请确认新密码">
+                <div class="btn">提交</div>
+            </div>
+        </div>
+    </div>
+    <div class="cover-xinzeng none">
+        <div class="banner">
+            <div class="banner-top">
+                <p>新增收货地址</p>
+                <span class="bannerT-close">×</span>
+            </div>
+            <div class="banner-main">
+                <div class="section">
+                    <div class="section-per">
+                        <p>收件人</p>
+                        <input onblur="test(1)" class="input1" type="text" placeholder="请输入姓名">
+                        <span class="warn warn1 none">请输入收件人姓名</span>
+                        <span class="warn  warn2 none">请输入正确的姓名</span>
+                    </div>
+                    <div class="section-phon">
+                        <p>手机号</p>
+                        <input onblur="test(2)" class="input2" type="text" placeholder="请输入手机号码">
+                        <span class="warn warn3 none">请输入收件人联系电话</span>
+                        <span class="warn  warn4 none">请输入正确的联系电话</span>
+                    </div>
+                </div>
+                <div class="section section1">
+                    <p>省</p>
+                    <p>市</p>
+                    <p>区</p>
+                    <!-- <input type="text"  placeholder="请选择省"> -->
+                    <select name="shen" id="count" onchange="getcountry()">
+                        <option value="">请选择省</option>
+                    </select>
+                    <select name="shen" id="city" onchange="getcity()">
+                        <option value="">请选择市</option>
+                    </select>
+                    <select name="shen" id="ear" onchange="getear()" onblur="test(5)">
+                        <option value="">请选择区</option>
+                    </select>
+                    <span class="warn none warn6">请选择区域</span>
+
+                </div>
+                <div class="section section2">
+                    <p>详细地址</p>
+                    <textarea onfocus="emp()" onblur="test(3)" class="input3" name="url" id="" cols="30"
+                        rows="10">请输入详细地址</textarea>
+                    <span class="warn warn5 none">请输入详细地址</span>
+                </div>
+                <div class="section section3">
+                    <div class="set-default">
+                        <input type="checkbox" name="" id="" checked>
+                        <span>设为默认地址</span>
+                    </div>
+                    <div class="btn rescind">取消</div>
+                    <div class="btn save">保存并使用</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../plugin/jquery.js"></script>
+<!-- <script src="../plugin/jquery-1.4.4.min.js"></script> -->
+<script>
+    $(".header").load("../common/header.html")
+    $(".footer").load("../common/footer.html")
+</script>
+<script>
+    //优惠劵中优惠切换
+    function youhuitab(value) {
+        if (value == 1) {
+            $(".first").addClass("span-active")
+            $(".second").removeClass("span-active")
+            $(".youhui-tab1").show()
+            $(".youhui-tab2").hide()
+        } else if (value == 2) {
+            $(".first").removeClass("span-active")
+            $(".second").addClass("span-active")
+            $(".youhui-tab1").hide()
+            $(".youhui-tab2").show()
+        } else if (value == 3) {
+            $(".three").addClass("span-active1")
+            $(".four").removeClass("span-active1")
+            $(".tab-tab1").show()
+            $(".tab-tab2").hide()
+        } else if (value == 4) {
+            $(".three").removeClass("span-active1")
+            $(".four").addClass("span-active1")
+            $(".tab-tab1").hide()
+            $(".tab-tab2").show()
+        } else if (value == 5) {
+            $(".five").addClass("span-active1")
+            $(".six").removeClass("span-active1")
+            $(".tab2-tab1").show()
+            $(".tab2-tab2").hide()
+        } else if (value == 6) {
+            $(".five").removeClass("span-active1")
+            $(".six").addClass("span-active1")
+            $(".tab2-tab1").hide()
+            $(".tab2-tab2").show()
+        }
+    }
+
+    //订单信息切换
+    function dingdan(value) {
+        $(".dingdan-tab span").removeClass("span-active")
+        $(".dingdan-tab span").eq(value).addClass("span-active")
+        $(".dingdan-tab-main").hide()
+        $(".dingdan-tab-main").eq(value).show()
+    }
+    //分别为soan注册点击事件，相应的span-tab显示
+
+    // $(".person-left span").click(function () {
+    //     $(".person-left span").removeClass("personL-SP-on")
+    //     $(this).addClass("personL-SP-on")
+    // })
+    function jumpspan2() {
+        $(".person-left span").removeClass("personL-SP-on")
+        $(".span2").addClass("personL-SP-on")
+        $(".span-tab").hide()
+        $(".span2-tab").show()
+    }
+
+    //个人中心对应模板展示
+    // $(document).ready(function () {
+    //     let locationurl = window.location.href
+    //     var val = locationurl.substring(51)
+    //     jump(val)
+    // })
+    // function jump(value) {
+    //     if (value == 0) {//点击了第一个span
+    //         $(".person-left span").removeClass("personL-SP-on")
+    //         $(".span1").addClass("personL-SP-on")
+    //         $(".span-tab").hide()
+    //         $(".span1-tab").show()
+    //     } else if (value == 1) {
+    //         console.log("......")
+    //         $(".person-left span").removeClass("personL-SP-on")
+    //         $(".span2").addClass("personL-SP-on")
+    //         $(".span-tab").hide()
+    //         $(".span2-tab").show()
+    //     } else if (value == 2) {
+    //         $(".person-left span").removeClass("personL-SP-on")
+    //         $(".span3").addClass("personL-SP-on")
+    //         $(".span-tab").hide()
+    //         $(".span3-tab").show()
+    //     } else if (value == 3) {
+    //         $(".person-left span").removeClass("personL-SP-on")
+    //         $(".span4").addClass("personL-SP-on")
+    //         $(".span-tab").hide()
+    //         $(".span4-tab").show()
+    //     } else if (value === 4) {
+    //         $(".person-left span").removeClass("personL-SP-on")
+    //         $(".span5").addClass("personL-SP-on")
+    //         $(".span-tab").hide()
+    //         $(".span5-tab").show()
+    //     } else if (value === 5) {
+    //         $(".person-left span").removeClass("personL-SP-on")
+    //         $(".span6").addClass("personL-SP-on")
+    //         $(".span-tab").hide()
+    //         $(".span6-tab").show()
+    //     } else if (value === 6) {
+    //         $(".person-left span").removeClass("personL-SP-on")
+    //         $(".span7").addClass("personL-SP-on")
+    //         $(".span-tab").hide()
+    //         $(".span7-tab").show()
+    //     } else if (value == 10) {
+    //         console.log("")
+    //         alert("退出，，该功能暂时未开发")
+    //     }
+    // }
+    //简化版
+    $(document).ready(function () {
+        let locationUrl = window.location.href
+        let val = locationUrl.split("?value=")[1]
+        jump(val)
+    })
+    function jump(index) {
+        $(".person-left span").removeClass("personL-SP-on")
+        $(".person-left span").eq(index).addClass("personL-SP-on")
+        $(".span-tab").hide()
+        $(".span-tab").eq(index).show()
+    }
+
+
+    //积分记录查看
+    function qiehuanjifen(value) {
+        if (value == 2) {
+            $(".jifen-tab span").removeClass("jifen-active")
+            $(".jifen-tab span:eq(0)").addClass("jifen-active")
+            $(".jifen-tab-tab1").hide()
+            $(".jifen-tab-tab2").show()
+        } else if (value == 3) {
+            $(".jifen-tab span").removeClass("jifen-active")
+            $(".jifen-tab span:eq(1)").addClass("jifen-active")
+            $(".jifen-tab-tab1").hide()
+            $(".jifen-tab-tab3").show()
+        } else if (value == 4) {
+            $(".jifen-tab span").removeClass("jifen-active")
+            $(".jifen-tab span:eq(2)").addClass("jifen-active")
+            $(".jifen-tab-tab1").hide()
+            $(".jifen-tab-tab4").show()
+        }
+    }
+</script>
+<script>
+    //全部订单与退换货之间的切换
+    function myorderTab(value) {
+        $(this).addClass("tabM-on")
+        if (value === 1) {
+            $(".myOrderSp1").addClass("tabM-on")
+            $(".myOrderSp2").removeClass("tabM-on")
+            $(".tab1").show()
+            $(".tab2").hide()
+        } else {
+            $(".myOrderSp2").addClass("tabM-on")
+            $(".myOrderSp1").removeClass("tabM-on")
+            $(".tab2").show()
+            $(".tab1").hide()
+        }
+    }
+    //查看订单，左侧定在我的订单上
+    function goleftmyOrder() {
+        $(".person-left span").removeClass("personL-SP-on")
+        $(".span6").addClass("personL-SP-on")
+        //其他页面影藏，对应的span-tab显示
+        $(".span-tab").hide()
+        $(".span6-tab").show()
+    }
+
+    //反转
+    var flag = true
+    $(".slew").click(function () {
+        if (flag) {
+            $(".personT-right").addClass("img-rotate")
+            flag = false
+        } else {
+            $(".personT-right").removeClass("img-rotate")
+            flag = true
+        }
+    })
+
+    //增加二宝
+    $(".addBody").click(function () {
+        $(".erBody").show()
+        $(".addBody").hide()
+    })
+    //修改密码，，弹出遮罩层，进行修改密码
+    function rewrite() {
+        $(".cover").show()
+    }
+    //关闭遮罩层
+    $(".closerewrit").click(function () {
+        $(".cover").hide()
+    })
+    //新增地址，，打开遮罩层
+
+    function newAdd() {
+        $(".cover-xinzeng").show()
+    }
+    //关闭遮罩层
+    $(".bannerT-close").click(function () {
+        $(".cover-xinzeng").hide()
+    })
+    $(".rescind").click(function () {
+        $(".cover-xinzeng").hide()//点击取消是相同效果
+    })
+    //表单测试 
+    function test(value) {
+        if (value == 1) {
+            let res = $(".input1").val();
+            if (res == "") {
+                $(".warn1").show()
+                $(".input1").addClass("com-warn")
+            } else if (res != "") {
+                $(".warn1").hide()
+                $(".input1").removeClass("com-warn")
+            }
+        } else if (value == 2) {
+            let res = $(".input2").val();
+            if (res == "") {
+                $(".warn3").show()
+                $(".input2").addClass("com-warn")
+            } else if (res != "") {
+                $(".warn3").hide()
+                $(".input2").removeClass("com-warn")
+            }
+        } else if (value == 3) {
+            let res = $(".input3").val();
+            if (res == "") {
+                $(".warn5").show()
+                $(".input3").addClass("com-warn")
+            } else if (res != "") {
+                $(".warn5").hide()
+                $(".input3").removeClass("com-warn")
+            }
+        } else if (value == 5) {
+            if ($("#count").children("option:selected").index() === 0 || $("#city").children("option:selected").index() === 0 || $("#ear").children("option:selected").index() === 0) {
+                $(".warn6").show()
+                $("#count").addClass("com-warn")
+                $("#city").addClass("com-warn")
+                $("#ear").addClass("com-warn")
+            } else {
+                $(".warn6").hide()
+                $("#count").removeClass("com-warn")
+                $("#city").removeClass("com-warn")
+                $("#ear").removeClass("com-warn")
+            }
+        }
+    }
+</script>
+
+</html>
