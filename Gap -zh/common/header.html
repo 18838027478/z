@@ -40,7 +40,7 @@
                             <span onclick="goLanding()" class="breakk headeb-i1 pointer">
                                 <i class="iconfont icon-denglu"></i>登录/注册
                             </span>
-                            <ul class="personCenter">
+                            <ul class="personCenter ">
                                 <i class="iconfont icon-jiantouxiangshang"></i>
                                 <li onclick="goMycenter(0)"> 我的账户</li>
                                 <li onclick="goMycenter(5)">我的订单</li>
@@ -88,7 +88,7 @@
                 </li>
                 <li class="headNav-li">
                     <span onclick="goclassify()" class="classify1">新品</span>
-                    <div class="conparent repeat">
+                    <div class="conparent">
                         <dl>
                             <dt class="bold">分类索引</dt>
                             <dd>新品</dd>
@@ -166,6 +166,13 @@
         })
 
     })
+
+//动态获取页面宽度
+    // $(document).ready(function(){
+    //     console.log(window.innerWidth)
+    //     console.log(window.screen.width)
+    //     // $(".conparent").
+    // })
 //跳转分类页面
     function goclassify(){
         window.location.href = '../html/classify.html'
