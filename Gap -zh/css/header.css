@@ -116,7 +116,7 @@
     top: 7px;
 }
 .headMain .head-nav{
-    
+    position: relative;
 }
 .headMain .head-nav .headNav-ul{
     /* overflow: hidden; */
@@ -131,7 +131,6 @@
     font-size: 16px;
     color: #333;
     font-weight: bold;
-    position: relative;
 }
 .headMain .head-nav .headNav-ul .headNav-li span{
     cursor: pointer;
@@ -145,16 +144,12 @@
 .headMain .head-nav .headNav-ul .headNav-li .conparent{
     position: absolute;
     display: none;
-    left: -168px;
+    left: 0;
     background-color: #fff;
     top: 30px;
     z-index: 9999;
     text-align: center;
     border-top: 1px solid #666;
-    /* transition: all 1s; */
-}
-.repeat{
-    left: -336px!important;
 }
 .headMain .head-nav .headNav-ul .headNav-li .headN-con{
     display: inline-block;
